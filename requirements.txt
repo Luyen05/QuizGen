@@ -1,0 +1,5 @@
+google-generativeai
+groq
+pypdf
+PyPDF2
+python-dotenv

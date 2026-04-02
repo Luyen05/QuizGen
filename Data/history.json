@@ -1,0 +1,221 @@
+[
+  {
+    "quiz_title": "Đề thi 02/04/2026 22:52",
+    "date": "2026-04-02 22:53",
+    "score": 5,
+    "total": 10,
+    "percentage": 50.0,
+    "grade": "Trung bình",
+    "time_taken": "1 phút 17 giây",
+    "answers": {
+      "0": "A",
+      "1": "C",
+      "2": "D",
+      "3": "B",
+      "4": "A",
+      "5": "D",
+      "6": "A",
+      "7": "C",
+      "8": "C",
+      "9": "C"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Mô hình OSI được sử dụng để làm gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Mô hình OSI là một khung lý thuyết do ISO ban hành nhằm tiêu chuẩn hóa các chức năng viễn thông."
+      },
+      {
+        "index": 1,
+        "question": "Số lượng tầng trong mô hình OSI là bao nhiêu?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Mô hình OSI chia quá trình truyền tin thành 7 tầng riêng biệt."
+      },
+      {
+        "index": 2,
+        "question": "Tầng nào của mô hình OSI cung cấp giao diện trực tiếp cho người dùng và các dịch vụ mạng?",
+        "user_answer": "D",
+        "correct_answer": "D",
+        "is_correct": true,
+        "explanation": "Tầng 7 (Application) cung cấp giao diện trực tiếp cho người dùng và các dịch vụ mạng."
+      },
+      {
+        "index": 3,
+        "question": "Giao thức nào sau đây thuộc về Tầng Transport?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Giao thức TCP thuộc về Tầng Transport."
+      },
+      {
+        "index": 4,
+        "question": "Chức năng chính của Tầng Network là gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Chức năng chính của Tầng Network là xác định đường đi tốt nhất cho dữ liệu."
+      },
+      {
+        "index": 5,
+        "question": "Thiết bị nào sau đây hoạt động tại Tầng Data Link?",
+        "user_answer": "D",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Thiết bị Switch hoạt động tại Tầng Data Link."
+      },
+      {
+        "index": 6,
+        "question": "Địa chỉ nào sau đây được sử dụng tại Tầng Data Link?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Địa chỉ MAC được sử dụng tại Tầng Data Link."
+      },
+      {
+        "index": 7,
+        "question": "Quá trình nào sau đây xảy ra khi dữ liệu đi từ tầng trên xuống tầng dưới trong mô hình OSI?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Quá trình đóng gói dữ liệu xảy ra khi dữ liệu đi từ tầng trên xuống tầng dưới trong mô hình OSI."
+      },
+      {
+        "index": 8,
+        "question": "Đơn vị dữ liệu nào sau đây được sử dụng tại Tầng Transport?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Đơn vị dữ liệu Segment được sử dụng tại Tầng Transport."
+      },
+      {
+        "index": 9,
+        "question": "Giao thức nào sau đây thuộc về Tầng Application?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Giao thức HTTP thuộc về Tầng Application."
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 02/04/2026 22:55",
+    "date": "2026-04-02 22:57",
+    "score": 2,
+    "total": 5,
+    "percentage": 40.0,
+    "grade": "Yếu",
+    "time_taken": "2 phút 1 giây",
+    "answers": {
+      "0": "C",
+      "1": "D",
+      "2": "C",
+      "3": "B",
+      "4": "A"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Hệ cơ số nào được sử dụng nhiều trong máy tính để biểu diễn các giá trị lưu trong thanh ghi hoặc ô nhớ?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Hệ nhị phân được sử dụng nhiều trong máy tính để biểu diễn các giá trị lưu trong thanh ghi hoặc ô nhớ."
+      },
+      {
+        "index": 1,
+        "question": "Phương pháp biểu diễn số nguyên có dấu nào khắc phục được vấn đề với hai phương pháp dấu lượng và bù 1?",
+        "user_answer": "D",
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Phương pháp biểu diễn số nguyên có dấu bù 2 khắc phục được vấn đề với hai phương pháp dấu lượng và bù 1."
+      },
+      {
+        "index": 2,
+        "question": "Biểu diễn số nguyên không dấu 1 byte lớn nhất là?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Biểu diễn số nguyên không dấu 1 byte lớn nhất là 255."
+      },
+      {
+        "index": 3,
+        "question": "Phương pháp biểu diễn số nguyên có dấu nào sử dụng bit trái nhất (MSB) làm bit dấu âm/dương?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Phương pháp biểu diễn số nguyên có dấu dấu lượng sử dụng bit trái nhất (MSB) làm bit dấu âm/dương."
+      },
+      {
+        "index": 4,
+        "question": "Biểu diễn số nguyên có dấu bằng phương pháp bù 2 được tính toán như thế nào?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Biểu diễn số nguyên có dấu bằng phương pháp bù 2 được tính toán bằng cách đảo bit tất cả các bit không phải bit dấu và cộng thêm 1."
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 02/04/2026 23:08",
+    "date": "2026-04-02 23:08",
+    "score": 3,
+    "total": 5,
+    "percentage": 60.0,
+    "grade": "Trung bình",
+    "time_taken": "0 phút 45 giây",
+    "answers": {
+      "0": "C",
+      "1": "A",
+      "2": "A",
+      "3": "D",
+      "4": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngôn ngữ hợp ngữ là gì?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Ngôn ngữ hợp ngữ là ngôn ngữ trung gian giữa ngôn ngữ máy và ngôn ngữ cấp cao, giúp con người hiểu và sử dụng tốt hơn ngôn ngữ máy"
+      },
+      {
+        "index": 1,
+        "question": "Chức năng của trình biên dịch (Compiler) là gì?",
+        "user_answer": "A",
+        "correct_answer": "D",
+        "is_correct": false,
+        "explanation": "Trình biên dịch (Compiler) có chức năng biên dịch ngôn ngữ cấp cao thành ngôn ngữ máy"
+      },
+      {
+        "index": 2,
+        "question": "Định vị thanh ghi là gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Định vị thanh ghi là cách định vị dữ liệu trong thanh ghi, tức là toán hạng là các thanh ghi và dữ liệu được chứa trong thanh ghi"
+      },
+      {
+        "index": 3,
+        "question": "Quy trình thực thi lệnh của CPU gồm những bước nào?",
+        "user_answer": "D",
+        "correct_answer": "D",
+        "is_correct": true,
+        "explanation": "Quy trình thực thi lệnh của CPU gồm những bước: nạp lệnh, giải mã lệnh, tính địa chỉ toán hạng, nạp toán hạng, thực hiện lệnh, tính địa chỉ toán hạng chứa kết quả, ghi kết quả"
+      },
+      {
+        "index": 4,
+        "question": "Chức năng của Assembler là gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Assembler có chức năng biên dịch hợp ngữ thành ngôn ngữ máy"
+      }
+    ]
+  }
+]
