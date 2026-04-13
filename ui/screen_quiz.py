@@ -16,7 +16,7 @@ class ScreenQuiz(tk.Frame):
         self.selected_var = tk.StringVar(value="")
         self.time_remaining = 0
         self._timer_id = None
-        self.quiz_manager = None
+        self.quiz_manager = None  # fix AttributeError
         self._build_ui()
 
     def on_enter(self):
@@ -111,12 +111,24 @@ class ScreenQuiz(tk.Frame):
     def _build_nav(self, active: str):
         nav = tk.Frame(self, bg=COLORS["bg"])
         nav.pack(pady=(12, 0))
-        for label, name in [("📂 Tải lên","upload"),("⚙️ Cài đặt","settings"),
-                             ("📝 Thi thử","quiz"),("📊 Kết quả","result")]:
+        tabs = [
+            ("📂 Tải lên",  "upload"),
+            ("⚙️ Cài đặt", "settings"),
+            ("📝 Thi thử",  "quiz"),
+            ("📊 Kết quả",  "result"),
+            ("📜 Lịch sử",  "history"),
+        ]
+        for label, name in tabs:
             bg = COLORS["accent"] if name == active else COLORS["surface"]
             fg = "white" if name == active else COLORS["muted"]
-            tk.Label(nav, text=label, font=self.controller.fonts["small"],
-                     bg=bg, fg=fg, padx=12, pady=5).pack(side="left", padx=2)
+            lbl = tk.Label(nav, text=label,
+                           font=self.controller.fonts["small"],
+                           bg=bg, fg=fg, padx=10, pady=5,
+                           cursor="hand2")
+            lbl.pack(side="left", padx=2)
+            if name != active:
+                lbl.bind("<Button-1>",
+                         lambda e, n=name: self.controller.show_screen(n))
 
     def _refresh_question(self):
         """Cập nhật UI theo câu hỏi hiện tại."""

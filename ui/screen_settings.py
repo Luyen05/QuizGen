@@ -132,12 +132,24 @@ class ScreenSettings(tk.Frame):
     def _build_nav(self, active: str):
         nav = tk.Frame(self, bg=COLORS["bg"])
         nav.pack(pady=(12, 0))
-        for label, name in [("📂 Tải lên","upload"),("⚙️ Cài đặt","settings"),
-                             ("📝 Thi thử","quiz"),("📊 Kết quả","result")]:
+        tabs = [
+            ("📂 Tải lên",  "upload"),
+            ("⚙️ Cài đặt", "settings"),
+            ("📝 Thi thử",  "quiz"),
+            ("📊 Kết quả",  "result"),
+            ("📜 Lịch sử",  "history"),
+        ]
+        for label, name in tabs:
             bg = COLORS["accent"] if name == active else COLORS["surface"]
             fg = "white" if name == active else COLORS["muted"]
-            tk.Label(nav, text=label, font=self.controller.fonts["small"],
-                     bg=bg, fg=fg, padx=12, pady=5).pack(side="left", padx=2)
+            lbl = tk.Label(nav, text=label,
+                           font=self.controller.fonts["small"],
+                           bg=bg, fg=fg, padx=10, pady=5,
+                           cursor="hand2")
+            lbl.pack(side="left", padx=2)
+            if name != active:
+                lbl.bind("<Button-1>",
+                         lambda e, n=name: self.controller.show_screen(n))
 
     def _draw_progress(self, event=None):
         """Vẽ thanh progress thủ công bằng Canvas."""

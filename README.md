@@ -28,7 +28,7 @@
 ### 1. Clone hoặc Tải Dự Án
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Luyen05/QuizGen
 cd QuizGen
 ```
 
@@ -133,10 +133,11 @@ QuizGen/
 │   └── quiz_manager.py   # Quản lý quiz
 │
 ├── ui/                   # Giao diện người dùng
-│   ├── app.py           # Ứng dụng chính (Tkinter)
+│   ├── app.py            # Ứng dụng chính (Tkinter)
 │   ├── screen_upload.py  # Màn hình upload tệp
 │   ├── screen_settings.py # Màn hình cấu hình
 │   ├── screen_quiz.py    # Màn hình làm quiz
+│   ├── screen_history.py # Màn hình lịch sử
 │   └── screen_result.py  # Màn hình kết quả
 │
 └── Data/                 # Dữ liệu

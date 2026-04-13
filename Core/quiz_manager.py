@@ -166,8 +166,10 @@ class QuizManager:
     # ── Lịch sử thi ──────────────────────────────────────────────────────────
 
     def save_history(self, result: dict):
-        """Ghi kết quả vào file lịch sử history.json."""
+        """Ghi kết quả vào file lịch sử history.json.
+        Lưu kèm câu hỏi để có thể làm lại sau khi tắt app."""
         history = self._load_history()
+        result["questions"] = self.get_questions()  # lưu câu hỏi gốc
         history.append(result)
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
             json.dump(history, f, ensure_ascii=False, indent=2)

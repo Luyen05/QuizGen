@@ -65,6 +65,7 @@ class QuizGenApp(tk.Tk):
         from ui.screen_settings import ScreenSettings
         from ui.screen_quiz     import ScreenQuiz
         from ui.screen_result   import ScreenResult
+        from ui.screen_history  import ScreenHistory
 
         container = tk.Frame(self, bg=COLORS["bg"])
         container.pack(fill="both", expand=True)
@@ -77,6 +78,7 @@ class QuizGenApp(tk.Tk):
             (ScreenSettings, "settings"),
             (ScreenQuiz,     "quiz"),
             (ScreenResult,   "result"),
+            (ScreenHistory,  "history"),
         ]:
             frame = ScreenClass(container, self)
             frame.grid(row=0, column=0, sticky="nsew")

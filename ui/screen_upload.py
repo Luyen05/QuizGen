@@ -85,18 +85,26 @@ class ScreenUpload(tk.Frame):
                   command=self._go_next).pack(pady=16)
 
     def _build_nav(self, active: str):
-        """Thanh điều hướng 4 bước."""
         nav = tk.Frame(self, bg=COLORS["bg"])
         nav.pack(pady=(12, 0))
-        steps = [("📂 Tải lên", "upload"),
-                 ("⚙️ Cài đặt", "settings"),
-                 ("📝 Thi thử", "quiz"),
-                 ("📊 Kết quả", "result")]
-        for label, name in steps:
+        tabs = [
+            ("📂 Tải lên",  "upload"),
+            ("⚙️ Cài đặt", "settings"),
+            ("📝 Thi thử",  "quiz"),
+            ("📊 Kết quả",  "result"),
+            ("📜 Lịch sử",  "history"),
+        ]
+        for label, name in tabs:
             bg = COLORS["accent"] if name == active else COLORS["surface"]
             fg = "white" if name == active else COLORS["muted"]
-            tk.Label(nav, text=label, font=self.controller.fonts["small"],
-                     bg=bg, fg=fg, padx=12, pady=5).pack(side="left", padx=2)
+            lbl = tk.Label(nav, text=label,
+                           font=self.controller.fonts["small"],
+                           bg=bg, fg=fg, padx=10, pady=5,
+                           cursor="hand2")
+            lbl.pack(side="left", padx=2)
+            if name != active:
+                lbl.bind("<Button-1>",
+                         lambda e, n=name: self.controller.show_screen(n))
 
     def _browse_file(self):
         """Mở hộp thoại chọn file."""
