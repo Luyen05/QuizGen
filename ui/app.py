@@ -32,7 +32,7 @@ class QuizGenApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("QuizGen — Hệ thống tạo đề thi tự động")
-        self.geometry("800x600")
+        self.geometry("1200x800")
         self.resizable(False, False)
         self.configure(bg=COLORS["bg"])
 

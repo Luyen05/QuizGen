@@ -1,1 +1,1778 @@
-[]
+[
+  {
+    "quiz_title": "Đề thi 24/04/2026 13:30",
+    "date": "2026-04-24 13:31",
+    "score": 3,
+    "total": 5,
+    "percentage": 60.0,
+    "grade": "Trung bình",
+    "time_taken": "0 phút 37 giây",
+    "answers": {
+      "0": "C",
+      "1": "D",
+      "2": "B",
+      "3": "A",
+      "4": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngắt là gì?",
+        "user_answer": "C",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác."
+      },
+      {
+        "index": 1,
+        "question": "Có bao nhiêu loại ngắt?",
+        "user_answer": "D",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt)."
+      },
+      {
+        "index": 2,
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh INT làm gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt."
+      },
+      {
+        "index": 4,
+        "question": "Lệnh IRET làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngắt là gì?",
+        "options": [
+          "A. Một biến cố xảy ra khi CPU đang thực hiện một lệnh",
+          "B. Một lệnh thực hiện khi CPU đang nghỉ",
+          "C. Một chương trình thực hiện khi CPU đang thực hiện một lệnh khác",
+          "D. Một thiết bị ngoại vi"
+        ],
+        "answer": "A",
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Có bao nhiêu loại ngắt?",
+        "options": [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 4"
+        ],
+        "answer": "B",
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "options": [
+          "A. Địa chỉ của chương trình chính",
+          "B. Địa chỉ của chương trình ngắt",
+          "C. Dữ liệu của chương trình",
+          "D. Thông tin về CPU"
+        ],
+        "answer": "B",
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh INT làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh IRET làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 24/04/2026 13:30",
+    "date": "2026-04-24 13:32",
+    "score": 4,
+    "total": 5,
+    "percentage": 80.0,
+    "grade": "Giỏi",
+    "time_taken": "0 phút 23 giây",
+    "answers": {
+      "0": "C",
+      "1": "B",
+      "2": "B",
+      "3": "A",
+      "4": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngắt là gì?",
+        "user_answer": "C",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác."
+      },
+      {
+        "index": 1,
+        "question": "Có bao nhiêu loại ngắt?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt)."
+      },
+      {
+        "index": 2,
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh INT làm gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt."
+      },
+      {
+        "index": 4,
+        "question": "Lệnh IRET làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngắt là gì?",
+        "options": [
+          "A. Một biến cố xảy ra khi CPU đang thực hiện một lệnh",
+          "B. Một lệnh thực hiện khi CPU đang nghỉ",
+          "C. Một chương trình thực hiện khi CPU đang thực hiện một lệnh khác",
+          "D. Một thiết bị ngoại vi"
+        ],
+        "answer": "A",
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Có bao nhiêu loại ngắt?",
+        "options": [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 4"
+        ],
+        "answer": "B",
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "options": [
+          "A. Địa chỉ của chương trình chính",
+          "B. Địa chỉ của chương trình ngắt",
+          "C. Dữ liệu của chương trình",
+          "D. Thông tin về CPU"
+        ],
+        "answer": "B",
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh INT làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh IRET làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 24/04/2026 13:30",
+    "date": "2026-04-24 13:33",
+    "score": 5,
+    "total": 5,
+    "percentage": 100.0,
+    "grade": "Xuất sắc",
+    "time_taken": "0 phút 16 giây",
+    "answers": {
+      "0": "A",
+      "1": "B",
+      "2": "B",
+      "3": "A",
+      "4": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngắt là gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác."
+      },
+      {
+        "index": 1,
+        "question": "Có bao nhiêu loại ngắt?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt)."
+      },
+      {
+        "index": 2,
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh INT làm gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt."
+      },
+      {
+        "index": 4,
+        "question": "Lệnh IRET làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngắt là gì?",
+        "options": [
+          "A. Một biến cố xảy ra khi CPU đang thực hiện một lệnh",
+          "B. Một lệnh thực hiện khi CPU đang nghỉ",
+          "C. Một chương trình thực hiện khi CPU đang thực hiện một lệnh khác",
+          "D. Một thiết bị ngoại vi"
+        ],
+        "answer": "A",
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Có bao nhiêu loại ngắt?",
+        "options": [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 4"
+        ],
+        "answer": "B",
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "options": [
+          "A. Địa chỉ của chương trình chính",
+          "B. Địa chỉ của chương trình ngắt",
+          "C. Dữ liệu của chương trình",
+          "D. Thông tin về CPU"
+        ],
+        "answer": "B",
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh INT làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh IRET làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 08/05/2026 13:33",
+    "date": "2026-05-08 13:34",
+    "score": 4,
+    "total": 4,
+    "percentage": 100.0,
+    "grade": "Xuất sắc",
+    "time_taken": "1 phút 14 giây",
+    "answers": {
+      "0": "B",
+      "1": "A",
+      "2": "B",
+      "3": "C"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Công nghệ phần mềm (Software Engineering) là gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Công nghệ phần mềm bao gồm toàn bộ quá trình xây dựng một hệ thống phần mềm từ đầu đến cuối, không chỉ tập trung vào việc lập trình."
+      },
+      {
+        "index": 1,
+        "question": "Mục đích của bài tiểu luận này là gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Mục đích của bài tiểu luận này là hệ thống hóa kiến thức lý thuyết nền tảng và kỹ năng thực hành cốt lõi của môn học."
+      },
+      {
+        "index": 2,
+        "question": "Công nghệ phần mềm bao gồm những hoạt động nào?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Công nghệ phần mềm bao gồm việc tìm hiểu nhu cầu của người dùng, phân tích bài toán, thiết kế hệ thống, triển khai, kiểm thử và duy trì phần mềm."
+      },
+      {
+        "index": 3,
+        "question": "Nếu áp dụng đúng quy trình công nghệ phần mềm, thì phần mềm có thể đạt được những lợi ích gì?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Nếu áp dụng đúng quy trình công nghệ phần mềm, thì phần mềm có thể được tạo ra một cách có tổ chức và hiệu quả."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Công nghệ phần mềm (Software Engineering) là gì?",
+        "options": [
+          "A. Chỉ tập trung vào việc lập trình",
+          "B. Toàn bộ quá trình xây dựng một hệ thống phần mềm từ đầu đến cuối",
+          "C. Chỉ bao gồm việc tìm hiểu nhu cầu của người dùng",
+          "D. Chỉ bao gồm việc kiểm thử và duy trì phần mềm"
+        ],
+        "answer": "B",
+        "explanation": "Công nghệ phần mềm bao gồm toàn bộ quá trình xây dựng một hệ thống phần mềm từ đầu đến cuối, không chỉ tập trung vào việc lập trình.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Mục đích của bài tiểu luận này là gì?",
+        "options": [
+          "A. Hệ thống hóa kiến thức lý thuyết nền tảng và kỹ năng thực hành cốt lõi của môn học",
+          "B. Phân tích các mô hình phát triển phần mềm",
+          "C. Khám phá các quy trình quản lý dự án và kỹ nghệ yêu cầu",
+          "D. Trình bày kết quả thực hành các công cụ tiêu chuẩn của ngành"
+        ],
+        "answer": "A",
+        "explanation": "Mục đích của bài tiểu luận này là hệ thống hóa kiến thức lý thuyết nền tảng và kỹ năng thực hành cốt lõi của môn học.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Công nghệ phần mềm bao gồm những hoạt động nào?",
+        "options": [
+          "A. Tìm hiểu nhu cầu của người dùng, thiết kế hệ thống, triển khai",
+          "B. Tìm hiểu nhu cầu của người dùng, phân tích bài toán, thiết kế hệ thống, triển khai, kiểm thử và duy trì phần mềm",
+          "C. Tìm hiểu nhu cầu của người dùng, phân tích bài toán",
+          "D. Thiết kế hệ thống, triển khai, kiểm thử và duy trì phần mềm"
+        ],
+        "answer": "B",
+        "explanation": "Công nghệ phần mềm bao gồm việc tìm hiểu nhu cầu của người dùng, phân tích bài toán, thiết kế hệ thống, triển khai, kiểm thử và duy trì phần mềm.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Nếu áp dụng đúng quy trình công nghệ phần mềm, thì phần mềm có thể đạt được những lợi ích gì?",
+        "options": [
+          "A. Chạy được lúc đầu nhưng nhanh chóng trở nên khó sửa, không đáp ứng đúng nhu cầu người dùng",
+          "B. Đáp ứng đúng nhu cầu người dùng, dễ phát sinh lỗi khi mở rộng",
+          "C. Được tạo ra một cách có tổ chức và hiệu quả",
+          "D. Không đáp ứng đúng nhu cầu người dùng, dễ phát sinh lỗi khi mở rộng"
+        ],
+        "answer": "C",
+        "explanation": "Nếu áp dụng đúng quy trình công nghệ phần mềm, thì phần mềm có thể được tạo ra một cách có tổ chức và hiệu quả.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 24/04/2026 13:30",
+    "date": "2026-05-08 13:35",
+    "score": 0,
+    "total": 5,
+    "percentage": 0.0,
+    "grade": "Yếu",
+    "time_taken": "0 phút 10 giây",
+    "answers": {},
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngắt là gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác."
+      },
+      {
+        "index": 1,
+        "question": "Có bao nhiêu loại ngắt?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt)."
+      },
+      {
+        "index": 2,
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh INT làm gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt."
+      },
+      {
+        "index": 4,
+        "question": "Lệnh IRET làm gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngắt là gì?",
+        "options": [
+          "A. Một biến cố xảy ra khi CPU đang thực hiện một lệnh",
+          "B. Một lệnh thực hiện khi CPU đang nghỉ",
+          "C. Một chương trình thực hiện khi CPU đang thực hiện một lệnh khác",
+          "D. Một thiết bị ngoại vi"
+        ],
+        "answer": "A",
+        "explanation": "Ngắt là một biến cố xảy ra khi CPU đang thực hiện một lệnh, khiến CPU tạm ngưng thực hiện chương trình hiện hành để thực hiện một chương trình khác.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Có bao nhiêu loại ngắt?",
+        "options": [
+          "A. 1",
+          "B. 2",
+          "C. 3",
+          "D. 4"
+        ],
+        "answer": "B",
+        "explanation": "Có 2 loại ngắt: ngắt cứng (hardware interrupt) và ngắt mềm (software interrupt).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Bảng vector ngắt chứa thông tin gì?",
+        "options": [
+          "A. Địa chỉ của chương trình chính",
+          "B. Địa chỉ của chương trình ngắt",
+          "C. Dữ liệu của chương trình",
+          "D. Thông tin về CPU"
+        ],
+        "answer": "B",
+        "explanation": "Bảng vector ngắt chứa địa chỉ đầu tiên của trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh INT làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh INT đưa thanh ghi, CS, IP vào ngăn xếp và thực hiện trình xử lý ngắt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh IRET làm gì?",
+        "options": [
+          "A. Đưa thanh ghi, CS, IP vào ngăn xếp",
+          "B. Đưa thanh ghi, CS, IP ra khỏi ngăn xếp",
+          "C. Thực hiện chương trình chính",
+          "D. Tạm ngưng chương trình hiện hành"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh IRET đưa thanh ghi, CS, IP ra khỏi ngăn xếp và trả về chương trình chính.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 11/05/2026 23:46",
+    "date": "2026-05-11 23:49",
+    "score": 3,
+    "total": 4,
+    "percentage": 75.0,
+    "grade": "Khá",
+    "time_taken": "2 phút 27 giây",
+    "answers": {
+      "0": "B",
+      "1": "B",
+      "2": "B",
+      "3": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngăn xếp hoạt động theo cơ chế nào?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Ngăn xếp hoạt động theo cơ chế LIFO, tức là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên."
+      },
+      {
+        "index": 1,
+        "question": "Lệnh nào được sử dụng để đưa giá trị vào ngăn xếp?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh PUSH được sử dụng để đưa giá trị vào ngăn xếp."
+      },
+      {
+        "index": 2,
+        "question": "Lệnh nào được sử dụng để lấy giá trị ra khỏi ngăn xếp?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh POP được sử dụng để lấy giá trị ra khỏi ngăn xếp."
+      },
+      {
+        "index": 3,
+        "question": "Khi thực hiện lệnh CALL, điều gì xảy ra với địa chỉ của lệnh kế tiếp?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp được lưu vào ngăn xếp."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngăn xếp hoạt động theo cơ chế nào?",
+        "options": [
+          "A. FIFO (First In First Out)",
+          "B. LIFO (Last In First Out)",
+          "C. Random",
+          "D. Sequential"
+        ],
+        "answer": "B",
+        "explanation": "Ngăn xếp hoạt động theo cơ chế LIFO, tức là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để đưa giá trị vào ngăn xếp?",
+        "options": [
+          "A. POP",
+          "B. PUSH",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh PUSH được sử dụng để đưa giá trị vào ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để lấy giá trị ra khỏi ngăn xếp?",
+        "options": [
+          "A. PUSH",
+          "B. POP",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh POP được sử dụng để lấy giá trị ra khỏi ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh CALL, điều gì xảy ra với địa chỉ của lệnh kế tiếp?",
+        "options": [
+          "A. Địa chỉ được lưu vào ngăn xếp",
+          "B. Địa chỉ được lưu vào thanh ghi IP",
+          "C. Địa chỉ bị mất",
+          "D. Địa chỉ không thay đổi"
+        ],
+        "answer": "A",
+        "explanation": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp được lưu vào ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 00:23",
+    "date": "2026-05-12 00:24",
+    "score": 2,
+    "total": 3,
+    "percentage": 66.7,
+    "grade": "Khá",
+    "time_taken": "1 phút 3 giây",
+    "answers": {
+      "0": "A",
+      "1": "C",
+      "2": "D"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngôn ngữ máy là gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Ngôn ngữ máy là một tập các chỉ thị được CPU của máy tính trực tiếp thực thi"
+      },
+      {
+        "index": 1,
+        "question": "Hợp ngữ có đặc điểm gì?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Hợp ngữ rất gần với ngôn ngữ máy nhưng lại đủ để con người hiểu và sử dụng tốt hơn ngôn ngữ máy"
+      },
+      {
+        "index": 2,
+        "question": "Assembler là gì?",
+        "user_answer": "D",
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Assembler là trình biên dịch hợp ngữ → ngôn ngữ máy"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngôn ngữ máy là gì?",
+        "options": [
+          "A. Là một tập các chỉ thị được CPU của máy tính trực tiếp thực thi",
+          "B. Là một ngôn ngữ lập trình cấp cao",
+          "C. Là một ngôn ngữ hợp ngữ",
+          "D. Là một ngôn ngữ lập trình cơ bản"
+        ],
+        "answer": "A",
+        "explanation": "Ngôn ngữ máy là một tập các chỉ thị được CPU của máy tính trực tiếp thực thi",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Hợp ngữ có đặc điểm gì?",
+        "options": [
+          "A. Là một ngôn ngữ lập trình cấp cao",
+          "B. Là một ngôn ngữ máy",
+          "C. Rất gần với ngôn ngữ máy nhưng lại đủ để con người hiểu và sử dụng tốt hơn ngôn ngữ máy",
+          "D. Là một ngôn ngữ lập trình cơ bản"
+        ],
+        "answer": "C",
+        "explanation": "Hợp ngữ rất gần với ngôn ngữ máy nhưng lại đủ để con người hiểu và sử dụng tốt hơn ngôn ngữ máy",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Assembler là gì?",
+        "options": [
+          "A. Trình biên dịch hợp ngữ → ngôn ngữ cấp cao",
+          "B. Trình biên dịch ngôn ngữ cấp cao → hợp ngữ",
+          "C. Trình biên dịch hợp ngữ → ngôn ngữ máy",
+          "D. Trình biên dịch ngôn ngữ máy → hợp ngữ"
+        ],
+        "answer": "C",
+        "explanation": "Assembler là trình biên dịch hợp ngữ → ngôn ngữ máy",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 00:28",
+    "date": "2026-05-12 00:28",
+    "score": 3,
+    "total": 6,
+    "percentage": 50.0,
+    "grade": "Trung bình",
+    "time_taken": "0 phút 38 giây",
+    "answers": {
+      "0": "B",
+      "1": "A",
+      "2": "C",
+      "3": "B",
+      "4": "C",
+      "5": "C"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Yêu cầu cơ bản của CPU là gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Yêu cầu cơ bản của CPU bao gồm có kiến trúc hợp lý nhất, thực hiện các phép tính số học và logic cơ bản, và có khả năng ứng dụng được trong thực tế."
+      },
+      {
+        "index": 1,
+        "question": "Chức năng của CPU bao gồm những gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Chức năng của CPU bao gồm thực hiện các phép tính số học và logic cơ bản, cũng như các lệnh vào/ra dữ liệu."
+      },
+      {
+        "index": 2,
+        "question": "ALU (Arithmetic-Logic Unit) trong CPU có chức năng gì?",
+        "user_answer": "C",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "ALU trong CPU có chức năng thực hiện các phép tính số học và logic cơ bản."
+      },
+      {
+        "index": 3,
+        "question": " Instruction Set Architecture (ISA) là gì?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Instruction Set Architecture (ISA) là tập lệnh dành cho các bộ xử lý có kiến trúc tương tự nhau."
+      },
+      {
+        "index": 4,
+        "question": "Có những kiểu thiết kế bộ lệnh nào?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Có hai kiểu thiết kế bộ lệnh là CISC (Complete Instruction Set Computer) và RISC (Reduced Instruction Set Computer)."
+      },
+      {
+        "index": 5,
+        "question": "MIPS là gì?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "MIPS là một kiến trúc bộ lệnh dùng nhiều trong các hệ thống nhúng."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Yêu cầu cơ bản của CPU là gì?",
+        "options": [
+          "A. Chỉ thực hiện các phép tính số học",
+          "B. Thực hiện các phép tính số học và logic cơ bản",
+          "C. Chỉ có kiến trúc hợp lý nhất",
+          "D. Không có yêu cầu cơ bản"
+        ],
+        "answer": "B",
+        "explanation": "Yêu cầu cơ bản của CPU bao gồm có kiến trúc hợp lý nhất, thực hiện các phép tính số học và logic cơ bản, và có khả năng ứng dụng được trong thực tế.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Chức năng của CPU bao gồm những gì?",
+        "options": [
+          "A. Chỉ thực hiện phép tính số học",
+          "B. Thực hiện phép tính số học và logic cơ bản, cũng như các lệnh vào/ra dữ liệu",
+          "C. Chỉ thực hiện phép tính logic",
+          "D. Không thực hiện phép tính số học và logic"
+        ],
+        "answer": "B",
+        "explanation": "Chức năng của CPU bao gồm thực hiện các phép tính số học và logic cơ bản, cũng như các lệnh vào/ra dữ liệu.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "ALU (Arithmetic-Logic Unit) trong CPU có chức năng gì?",
+        "options": [
+          "A. Thực hiện các phép tính số học và logic cơ bản",
+          "B. Thực hiện các phép tính số học nhưng không thực hiện phép tính logic",
+          "C. Thực hiện các phép tính logic nhưng không thực hiện phép tính số học",
+          "D. Không thực hiện phép tính số học và logic"
+        ],
+        "answer": "A",
+        "explanation": "ALU trong CPU có chức năng thực hiện các phép tính số học và logic cơ bản.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": " Instruction Set Architecture (ISA) là gì?",
+        "options": [
+          "A. Tập lệnh dành cho các bộ xử lý có kiến trúc tương tự nhau",
+          "B. Tập lệnh dành cho các bộ xử lý có kiến trúc khác nhau",
+          "C. Tập lệnh chỉ dành cho bộ xử lý 32 bit",
+          "D. Tập lệnh chỉ dành cho bộ xử lý 64 bit"
+        ],
+        "answer": "A",
+        "explanation": "Instruction Set Architecture (ISA) là tập lệnh dành cho các bộ xử lý có kiến trúc tương tự nhau.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Có những kiểu thiết kế bộ lệnh nào?",
+        "options": [
+          "A. Chỉ có CISC",
+          "B. Chỉ có RISC",
+          "C. CISC và RISC",
+          "D. Không có kiểu thiết kế bộ lệnh"
+        ],
+        "answer": "C",
+        "explanation": "Có hai kiểu thiết kế bộ lệnh là CISC (Complete Instruction Set Computer) và RISC (Reduced Instruction Set Computer).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "MIPS là gì?",
+        "options": [
+          "A. Một loại bộ xử lý 32 bit",
+          "B. Một loại bộ xử lý 64 bit",
+          "C. Một kiến trúc bộ lệnh dùng nhiều trong các hệ thống nhúng",
+          "D. Một loại thiết bị vào ra"
+        ],
+        "answer": "C",
+        "explanation": "MIPS là một kiến trúc bộ lệnh dùng nhiều trong các hệ thống nhúng.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 00:30",
+    "date": "2026-05-12 00:32",
+    "score": 4,
+    "total": 10,
+    "percentage": 40.0,
+    "grade": "Yếu",
+    "time_taken": "1 phút 32 giây",
+    "answers": {
+      "0": "B",
+      "1": "A",
+      "2": "C",
+      "3": "C",
+      "5": "C",
+      "4": "A",
+      "6": "A",
+      "8": "D",
+      "7": "D",
+      "9": "C"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngăn xếp là vùng nhớ dùng để lưu trữ tạm thời một số dữ liệu dùng cho chương trình hoặc địa chỉ của các chương trình con. Cơ chế truy cập của ngăn xếp là gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Ngăn xếp sử dụng cơ chế LIFO, tức là phần tử được thêm vào sau cùng sẽ là phần tử được lấy ra đầu tiên."
+      },
+      {
+        "index": 1,
+        "question": "Khi khai báo ngăn xếp với lệnh .STACK 100h, thì giá trị của con trỏ ngăn xếp (SP) sẽ được thiết lập là bao nhiêu?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Khi khai báo ngăn xếp, giá trị của con trỏ ngăn xếp (SP) sẽ được thiết lập bằng địa chỉ bắt đầu của ngăn xếp."
+      },
+      {
+        "index": 2,
+        "question": "Khi đưa giá trị vào ngăn xếp, con trỏ ngăn xếp (SP) sẽ thay đổi như thế nào?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Khi đưa giá trị vào ngăn xếp, con trỏ ngăn xếp (SP) sẽ giảm xuống 2 để trỏ đến vị trí mới của đỉnh ngăn xếp."
+      },
+      {
+        "index": 3,
+        "question": "Khi lấy giá trị ra khỏi ngăn xếp, con trỏ ngăn xếp (SP) sẽ thay đổi như thế nào?",
+        "user_answer": "C",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Khi lấy giá trị ra khỏi ngăn xếp, con trỏ ngăn xếp (SP) sẽ tăng lên 2 để trỏ đến vị trí cũ của đỉnh ngăn xếp."
+      },
+      {
+        "index": 4,
+        "question": "Lệnh nào dùng để đưa giá trị vào ngăn xếp?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh PUSH dùng để đưa giá trị vào ngăn xếp."
+      },
+      {
+        "index": 5,
+        "question": "Lệnh nào dùng để lấy giá trị ra khỏi ngăn xếp?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh POP dùng để lấy giá trị ra khỏi ngăn xếp."
+      },
+      {
+        "index": 6,
+        "question": "Thủ tục là gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng để thực hiện một nhiệm vụ cụ thể."
+      },
+      {
+        "index": 7,
+        "question": "Khi gọi thủ tục, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "user_answer": "D",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Khi gọi thủ tục, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong ngăn xếp."
+      },
+      {
+        "index": 8,
+        "question": "Lệnh SHL thực hiện phép gì?",
+        "user_answer": "D",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh SHL thực hiện phép dịch trái, tức là dịch các bit của toán hạng sang trái và bổ sung bit 0 vào vị trí phải nhất."
+      },
+      {
+        "index": 9,
+        "question": "Khi thực hiện lệnh CALL, thanh ghi IP sẽ được cập nhật như thế nào?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Khi thực hiện lệnh CALL, thanh ghi IP sẽ được cập nhật bằng địa chỉ của thủ tục được gọi."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngăn xếp là vùng nhớ dùng để lưu trữ tạm thời một số dữ liệu dùng cho chương trình hoặc địa chỉ của các chương trình con. Cơ chế truy cập của ngăn xếp là gì?",
+        "options": [
+          "A. FIFO (First In First Out)",
+          "B. LIFO (Last In First Out)",
+          "C. Random Access",
+          "D. Sequential Access"
+        ],
+        "answer": "B",
+        "explanation": "Ngăn xếp sử dụng cơ chế LIFO, tức là phần tử được thêm vào sau cùng sẽ là phần tử được lấy ra đầu tiên.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi khai báo ngăn xếp với lệnh .STACK 100h, thì giá trị của con trỏ ngăn xếp (SP) sẽ được thiết lập là bao nhiêu?",
+        "options": [
+          "A. 100h",
+          "B. 0FEh",
+          "C. 0FCh",
+          "D. 000h"
+        ],
+        "answer": "A",
+        "explanation": "Khi khai báo ngăn xếp, giá trị của con trỏ ngăn xếp (SP) sẽ được thiết lập bằng địa chỉ bắt đầu của ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi đưa giá trị vào ngăn xếp, con trỏ ngăn xếp (SP) sẽ thay đổi như thế nào?",
+        "options": [
+          "A. Tăng lên 2",
+          "B. Giảm xuống 2",
+          "C. Không thay đổi",
+          "D. Tăng lên 1"
+        ],
+        "answer": "B",
+        "explanation": "Khi đưa giá trị vào ngăn xếp, con trỏ ngăn xếp (SP) sẽ giảm xuống 2 để trỏ đến vị trí mới của đỉnh ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi lấy giá trị ra khỏi ngăn xếp, con trỏ ngăn xếp (SP) sẽ thay đổi như thế nào?",
+        "options": [
+          "A. Tăng lên 2",
+          "B. Giảm xuống 2",
+          "C. Không thay đổi",
+          "D. Giảm xuống 1"
+        ],
+        "answer": "A",
+        "explanation": "Khi lấy giá trị ra khỏi ngăn xếp, con trỏ ngăn xếp (SP) sẽ tăng lên 2 để trỏ đến vị trí cũ của đỉnh ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào dùng để đưa giá trị vào ngăn xếp?",
+        "options": [
+          "A. PUSH",
+          "B. POP",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh PUSH dùng để đưa giá trị vào ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào dùng để lấy giá trị ra khỏi ngăn xếp?",
+        "options": [
+          "A. PUSH",
+          "B. POP",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh POP dùng để lấy giá trị ra khỏi ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Thủ tục là gì?",
+        "options": [
+          "A. Một đoạn chương trình được viết riêng",
+          "B. Một biến được khai báo",
+          "C. Một hàm được định nghĩa",
+          "D. Một lớp được tạo"
+        ],
+        "answer": "A",
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng để thực hiện một nhiệm vụ cụ thể.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi gọi thủ tục, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "options": [
+          "A. Trong thanh ghi IP",
+          "B. Trong ngăn xếp",
+          "C. Trong biến cục bộ",
+          "D. Trong thanh ghi AX"
+        ],
+        "answer": "B",
+        "explanation": "Khi gọi thủ tục, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh SHL thực hiện phép gì?",
+        "options": [
+          "A. Dịch phải",
+          "B. Dịch trái",
+          "C. Đổi dấu số",
+          "D. Kiểm tra bit"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh SHL thực hiện phép dịch trái, tức là dịch các bit của toán hạng sang trái và bổ sung bit 0 vào vị trí phải nhất.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh CALL, thanh ghi IP sẽ được cập nhật như thế nào?",
+        "options": [
+          "A. Được cập nhật bằng địa chỉ của lệnh kế tiếp",
+          "B. Được cập nhật bằng địa chỉ của thủ tục được gọi",
+          "C. Không thay đổi",
+          "D. Được cập nhật bằng giá trị của thanh ghi AX"
+        ],
+        "answer": "B",
+        "explanation": "Khi thực hiện lệnh CALL, thanh ghi IP sẽ được cập nhật bằng địa chỉ của thủ tục được gọi.",
+        "verified": true,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 00:34",
+    "date": "2026-05-12 00:34",
+    "score": 3,
+    "total": 7,
+    "percentage": 42.9,
+    "grade": "Yếu",
+    "time_taken": "0 phút 21 giây",
+    "answers": {
+      "0": "B",
+      "1": "C",
+      "2": "B",
+      "3": "C",
+      "4": "C",
+      "5": "B",
+      "6": "A"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh so sánh CMP thực hiện chức năng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh so sánh CMP thực hiện so sánh toán tử đích và nguồn mà không thay đổi toán tử đích"
+      },
+      {
+        "index": 1,
+        "question": "Khi thực hiện lệnh CMP, nếu toán tử đích bằng toán tử nguồn, thì giá trị của cờ ZF là?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Nếu toán tử đích bằng toán tử nguồn, thì giá trị của cờ ZF là 1"
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB được sử dụng để làm gì?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI"
+      },
+      {
+        "index": 3,
+        "question": "Lệnh nhảy JMP có chức năng gì?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh nhảy JMP có chức năng nhảy đến một vị trí trong chương trình mà không cần điều kiện"
+      },
+      {
+        "index": 4,
+        "question": "Cờ DF được sử dụng để làm gì?",
+        "user_answer": "C",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Cờ DF được sử dụng để xóa hoặc đặt cờ DF để quyết định hướng tăng hoặc giảm của chỉ số SI và DI"
+      },
+      {
+        "index": 5,
+        "question": "Lệnh nhảy có điều kiện trong chương trình có thể được chia thành mấy nhóm?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh nhảy có điều kiện trong chương trình có thể được chia thành 3 nhóm"
+      },
+      {
+        "index": 6,
+        "question": "Lệnh CMPSB thực hiện so sánh giữa các byte ở đâu?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh CMPSB thực hiện so sánh giữa các byte ở ES:DI và DS:SI"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh so sánh CMP thực hiện chức năng gì?",
+        "options": [
+          "A. Thêm toán tử đích và nguồn",
+          "B. So sánh toán tử đích và nguồn mà không thay đổi toán tử đích",
+          "C. Trừ toán tử nguồn từ toán tử đích",
+          "D. Nhân toán tử đích và nguồn"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh so sánh CMP thực hiện so sánh toán tử đích và nguồn mà không thay đổi toán tử đích",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh CMP, nếu toán tử đích bằng toán tử nguồn, thì giá trị của cờ ZF là?",
+        "options": [
+          "A. 0",
+          "B. 1",
+          "C. -1",
+          "D. Không xác định"
+        ],
+        "answer": "B",
+        "explanation": "Nếu toán tử đích bằng toán tử nguồn, thì giá trị của cờ ZF là 1",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB được sử dụng để làm gì?",
+        "options": [
+          "A. So sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "B. So sánh các từ tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. So sánh các từ tương ứng với địa chỉ ES:SI và DS:DI",
+          "D. So sánh các byte tương ứng với địa chỉ ES:SI và DS:DI"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy JMP có chức năng gì?",
+        "options": [
+          "A. Nhảy đến một vị trí trong chương trình nếu một điều kiện nhất định được thỏa mãn",
+          "B. Nhảy đến một vị trí trong chương trình mà không cần điều kiện",
+          "C. Nhảy đến một vị trí trong chương trình và thực hiện một lệnh cụ thể",
+          "D. Nhảy đến một vị trí trong chương trình và dừng chương trình"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh nhảy JMP có chức năng nhảy đến một vị trí trong chương trình mà không cần điều kiện",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Cờ DF được sử dụng để làm gì?",
+        "options": [
+          "A. Xóa hoặc đặt cờ DF để quyết định hướng tăng hoặc giảm của chỉ số SI và DI",
+          "B. Xóa hoặc đặt cờ DF để quyết định hướng tăng hoặc giảm của chỉ số BX và AX",
+          "C. Xóa hoặc đặt cờ DF để quyết định hướng tăng hoặc giảm của chỉ số CX và DX",
+          "D. Xóa hoặc đặt cờ DF để quyết định hướng tăng hoặc giảm của chỉ số SP và BP"
+        ],
+        "answer": "A",
+        "explanation": "Cờ DF được sử dụng để xóa hoặc đặt cờ DF để quyết định hướng tăng hoặc giảm của chỉ số SI và DI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy có điều kiện trong chương trình có thể được chia thành mấy nhóm?",
+        "options": [
+          "A. 2 nhóm",
+          "B. 3 nhóm",
+          "C. 4 nhóm",
+          "D. 5 nhóm"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh nhảy có điều kiện trong chương trình có thể được chia thành 3 nhóm",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB thực hiện so sánh giữa các byte ở đâu?",
+        "options": [
+          "A. ES:DI và DS:SI",
+          "B. ES:SI và DS:DI",
+          "C. ES:SI và DS:SI",
+          "D. ES:DI và DS:DI"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB thực hiện so sánh giữa các byte ở ES:DI và DS:SI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 00:37",
+    "date": "2026-05-12 00:37",
+    "score": 0,
+    "total": 8,
+    "percentage": 0.0,
+    "grade": "Yếu",
+    "time_taken": "0 phút 16 giây",
+    "answers": {
+      "0": "A",
+      "1": "A",
+      "2": "D",
+      "3": "C",
+      "4": "B",
+      "5": "C",
+      "6": "C",
+      "7": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP Đích, Nguồn thực hiện chức năng gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh CMP thực hiện so sánh nhưng không thay đổi toán tử Đích"
+      },
+      {
+        "index": 1,
+        "question": "Khi lệnh CMP thực hiện, nếu Đích bằng Nguồn thì cờ nào được đặt?",
+        "user_answer": "A",
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Nếu Đích bằng Nguồn thì ZF=1"
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "user_answer": "D",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB so sánh các byte tương ứng với địa chỉ DS:SI và ES:DI"
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP có chức năng gì?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh JMP thực hiện nhảy không điều kiện"
+      },
+      {
+        "index": 4,
+        "question": "Lệnh nhảy có điều kiện chia thành những nhóm nào?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh nhảy có điều kiện chia thành 3 nhóm: Kiểm tra một cờ duy nhất, so sánh số có dấu, so sánh số không dấu"
+      },
+      {
+        "index": 5,
+        "question": "Lệnh JCXZ thực hiện chức năng gì?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh JCXZ nhảy khi CX bằng 0"
+      },
+      {
+        "index": 6,
+        "question": "Lệnh LOOPNE/LOOPNZ thực hiện chức năng gì?",
+        "user_answer": "C",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh LOOPNE/LOOPNZ kết thúc vòng lặp khi CX=0 hoặc ZF=0"
+      },
+      {
+        "index": 7,
+        "question": "Chức năng của lệnh CMP AL, 'y' và CMP AL, 'Y' là gì?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMP AL, 'y' và CMP AL, 'Y' so sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'y' hoặc 'Y'"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP Đích, Nguồn thực hiện chức năng gì?",
+        "options": [
+          "A. So sánh và thay đổi toán tử Đích",
+          "B. So sánh nhưng không thay đổi toán tử Đích",
+          "C. Thêm toán tử Đích và Nguồn",
+          "D. Trừ toán tử Đích và Nguồn"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP thực hiện so sánh nhưng không thay đổi toán tử Đích",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi lệnh CMP thực hiện, nếu Đích bằng Nguồn thì cờ nào được đặt?",
+        "options": [
+          "A. CF=1",
+          "B. SF=1",
+          "C. ZF=1",
+          "D. AF=1"
+        ],
+        "answer": "C",
+        "explanation": "Nếu Đích bằng Nguồn thì ZF=1",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "options": [
+          "A. So sánh các byte tương ứng với địa chỉ DS:SI và ES:DI",
+          "B. So sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. Thêm các byte tương ứng với địa chỉ DS:SI và ES:DI",
+          "D. Trừ các byte tương ứng với địa chỉ DS:SI và ES:DI"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB so sánh các byte tương ứng với địa chỉ DS:SI và ES:DI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP có chức năng gì?",
+        "options": [
+          "A. Nhảy có điều kiện",
+          "B. Nhảy không điều kiện",
+          "C. Lặp lại một đoạn lệnh",
+          "D. So sánh hai số"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP thực hiện nhảy không điều kiện",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy có điều kiện chia thành những nhóm nào?",
+        "options": [
+          "A. Kiểm tra một cờ duy nhất, so sánh số có dấu, so sánh số không dấu",
+          "B. Kiểm tra một cờ duy nhất, so sánh số không dấu, so sánh số có dấu",
+          "C. Kiểm tra một cờ duy nhất, so sánh số có dấu",
+          "D. So sánh số có dấu, so sánh số không dấu"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh nhảy có điều kiện chia thành 3 nhóm: Kiểm tra một cờ duy nhất, so sánh số có dấu, so sánh số không dấu",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JCXZ thực hiện chức năng gì?",
+        "options": [
+          "A. Nhảy khi CX khác 0",
+          "B. Nhảy khi CX bằng 0",
+          "C. Giữ nguyên CX",
+          "D. Tăng CX đi 1"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JCXZ nhảy khi CX bằng 0",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh LOOPNE/LOOPNZ thực hiện chức năng gì?",
+        "options": [
+          "A. Kết thúc vòng lặp khi CX=0 hoặc ZF=0",
+          "B. Kết thúc vòng lặp khi CX=0 và ZF=1",
+          "C. Kết thúc vòng lặp khi CX khác 0",
+          "D. Không kết thúc vòng lặp"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh LOOPNE/LOOPNZ kết thúc vòng lặp khi CX=0 hoặc ZF=0",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Chức năng của lệnh CMP AL, 'y' và CMP AL, 'Y' là gì?",
+        "options": [
+          "A. So sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'y' hoặc 'Y'",
+          "B. So sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'n' hoặc 'N'",
+          "C. Thêm AL với 'y' và 'Y'",
+          "D. Trừ AL với 'y' và 'Y'"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMP AL, 'y' và CMP AL, 'Y' so sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'y' hoặc 'Y'",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 00:37",
+    "date": "2026-05-12 00:38",
+    "score": 0,
+    "total": 8,
+    "percentage": 0.0,
+    "grade": "Yếu",
+    "time_taken": "0 phút 8 giây",
+    "answers": {
+      "0": "C"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP Đích, Nguồn thực hiện chức năng gì?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh CMP thực hiện so sánh nhưng không thay đổi toán tử Đích"
+      },
+      {
+        "index": 1,
+        "question": "Khi lệnh CMP thực hiện, nếu Đích bằng Nguồn thì cờ nào được đặt?",
+        "user_answer": null,
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Nếu Đích bằng Nguồn thì ZF=1"
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB so sánh các byte tương ứng với địa chỉ DS:SI và ES:DI"
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP có chức năng gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh JMP thực hiện nhảy không điều kiện"
+      },
+      {
+        "index": 4,
+        "question": "Lệnh nhảy có điều kiện chia thành những nhóm nào?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh nhảy có điều kiện chia thành 3 nhóm: Kiểm tra một cờ duy nhất, so sánh số có dấu, so sánh số không dấu"
+      },
+      {
+        "index": 5,
+        "question": "Lệnh JCXZ thực hiện chức năng gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh JCXZ nhảy khi CX bằng 0"
+      },
+      {
+        "index": 6,
+        "question": "Lệnh LOOPNE/LOOPNZ thực hiện chức năng gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh LOOPNE/LOOPNZ kết thúc vòng lặp khi CX=0 hoặc ZF=0"
+      },
+      {
+        "index": 7,
+        "question": "Chức năng của lệnh CMP AL, 'y' và CMP AL, 'Y' là gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMP AL, 'y' và CMP AL, 'Y' so sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'y' hoặc 'Y'"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP Đích, Nguồn thực hiện chức năng gì?",
+        "options": [
+          "A. So sánh và thay đổi toán tử Đích",
+          "B. So sánh nhưng không thay đổi toán tử Đích",
+          "C. Thêm toán tử Đích và Nguồn",
+          "D. Trừ toán tử Đích và Nguồn"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP thực hiện so sánh nhưng không thay đổi toán tử Đích",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi lệnh CMP thực hiện, nếu Đích bằng Nguồn thì cờ nào được đặt?",
+        "options": [
+          "A. CF=1",
+          "B. SF=1",
+          "C. ZF=1",
+          "D. AF=1"
+        ],
+        "answer": "C",
+        "explanation": "Nếu Đích bằng Nguồn thì ZF=1",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "options": [
+          "A. So sánh các byte tương ứng với địa chỉ DS:SI và ES:DI",
+          "B. So sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. Thêm các byte tương ứng với địa chỉ DS:SI và ES:DI",
+          "D. Trừ các byte tương ứng với địa chỉ DS:SI và ES:DI"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB so sánh các byte tương ứng với địa chỉ DS:SI và ES:DI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP có chức năng gì?",
+        "options": [
+          "A. Nhảy có điều kiện",
+          "B. Nhảy không điều kiện",
+          "C. Lặp lại một đoạn lệnh",
+          "D. So sánh hai số"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP thực hiện nhảy không điều kiện",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy có điều kiện chia thành những nhóm nào?",
+        "options": [
+          "A. Kiểm tra một cờ duy nhất, so sánh số có dấu, so sánh số không dấu",
+          "B. Kiểm tra một cờ duy nhất, so sánh số không dấu, so sánh số có dấu",
+          "C. Kiểm tra một cờ duy nhất, so sánh số có dấu",
+          "D. So sánh số có dấu, so sánh số không dấu"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh nhảy có điều kiện chia thành 3 nhóm: Kiểm tra một cờ duy nhất, so sánh số có dấu, so sánh số không dấu",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JCXZ thực hiện chức năng gì?",
+        "options": [
+          "A. Nhảy khi CX khác 0",
+          "B. Nhảy khi CX bằng 0",
+          "C. Giữ nguyên CX",
+          "D. Tăng CX đi 1"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JCXZ nhảy khi CX bằng 0",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh LOOPNE/LOOPNZ thực hiện chức năng gì?",
+        "options": [
+          "A. Kết thúc vòng lặp khi CX=0 hoặc ZF=0",
+          "B. Kết thúc vòng lặp khi CX=0 và ZF=1",
+          "C. Kết thúc vòng lặp khi CX khác 0",
+          "D. Không kết thúc vòng lặp"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh LOOPNE/LOOPNZ kết thúc vòng lặp khi CX=0 hoặc ZF=0",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Chức năng của lệnh CMP AL, 'y' và CMP AL, 'Y' là gì?",
+        "options": [
+          "A. So sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'y' hoặc 'Y'",
+          "B. So sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'n' hoặc 'N'",
+          "C. Thêm AL với 'y' và 'Y'",
+          "D. Trừ AL với 'y' và 'Y'"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMP AL, 'y' và CMP AL, 'Y' so sánh AL với 'y' và 'Y' để kiểm tra nhập vào là 'y' hoặc 'Y'",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  }
+]
