@@ -1774,5 +1774,2253 @@
         "verify_note": ""
       }
     ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 01:01",
+    "date": "2026-05-12 01:01",
+    "score": 3,
+    "total": 4,
+    "percentage": 75.0,
+    "grade": "Khá",
+    "time_taken": "0 phút 9 giây",
+    "answers": {
+      "0": "B",
+      "1": "C",
+      "2": "C",
+      "3": "C"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngôn ngữ máy là gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Ngôn ngữ máy là một tập các chỉ thị được CPU của máy tính trực tiếp thực thi"
+      },
+      {
+        "index": 1,
+        "question": "Hợp ngữ khác với ngôn ngữ máy như thế nào?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Hợp ngữ rất gần với ngôn ngữ máy nhưng lại đủ để con người hiểu và sử dụng tốt hơn ngôn ngữ máy"
+      },
+      {
+        "index": 2,
+        "question": "Chức năng của trình biên dịch (Compiler) là gì?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Compiler là trình biên dịch ngôn ngữ cấp cao thành hợp ngữ"
+      },
+      {
+        "index": 3,
+        "question": "Assembler là gì?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Assembler là trình biên dịch hợp ngữ thành ngôn ngữ máy"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngôn ngữ máy là gì?",
+        "options": [
+          "A. Là một tập các từ khóa và cú pháp",
+          "B. Là một tập các chỉ thị được CPU của máy tính trực tiếp thực thi",
+          "C. Là một ngôn ngữ cấp cao",
+          "D. Là một ngôn ngữ hợp ngữ"
+        ],
+        "answer": "B",
+        "explanation": "Ngôn ngữ máy là một tập các chỉ thị được CPU của máy tính trực tiếp thực thi",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Hợp ngữ khác với ngôn ngữ máy như thế nào?",
+        "options": [
+          "A. Hợp ngữ là ngôn ngữ cấp cao",
+          "B. Hợp ngữ không có khái niệm biến",
+          "C. Hợp ngữ rất gần với ngôn ngữ máy nhưng lại đủ để con người hiểu và sử dụng tốt hơn ngôn ngữ máy",
+          "D. Hợp ngữ là ngôn ngữ máy"
+        ],
+        "answer": "C",
+        "explanation": "Hợp ngữ rất gần với ngôn ngữ máy nhưng lại đủ để con người hiểu và sử dụng tốt hơn ngôn ngữ máy",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Chức năng của trình biên dịch (Compiler) là gì?",
+        "options": [
+          "A. Biên dịch ngôn ngữ máy thành hợp ngữ",
+          "B. Biên dịch hợp ngữ thành ngôn ngữ máy",
+          "C. Biên dịch ngôn ngữ cấp cao thành hợp ngữ",
+          "D. Biên dịch hợp ngữ thành ngôn ngữ cấp cao"
+        ],
+        "answer": "C",
+        "explanation": "Compiler là trình biên dịch ngôn ngữ cấp cao thành hợp ngữ",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Assembler là gì?",
+        "options": [
+          "A. Trình biên dịch ngôn ngữ cấp cao thành hợp ngữ",
+          "B. Trình biên dịch hợp ngữ thành ngôn ngữ máy",
+          "C. Trình biên dịch ngôn ngữ máy thành hợp ngữ",
+          "D. Trình biên dịch hợp ngữ thành ngôn ngữ cấp cao"
+        ],
+        "answer": "B",
+        "explanation": "Assembler là trình biên dịch hợp ngữ thành ngôn ngữ máy",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 01:40",
+    "date": "2026-05-12 01:40",
+    "score": 1,
+    "total": 6,
+    "percentage": 16.7,
+    "grade": "Yếu",
+    "time_taken": "0 phút 37 giây",
+    "answers": {
+      "1": "A",
+      "0": "B",
+      "2": "C",
+      "3": "C",
+      "4": "D",
+      "5": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh nào được sử dụng để so sánh hai byte trong các thanh ghi?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMP được sử dụng để so sánh hai byte trong các thanh ghi."
+      },
+      {
+        "index": 1,
+        "question": "Khi nào thì cờ ZF được đặt thành 1 trong lệnh CMP?",
+        "user_answer": "A",
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Cờ ZF được đặt thành 1 khi đích bằng nguồn."
+      },
+      {
+        "index": 2,
+        "question": "Lệnh nào được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI?",
+        "user_answer": "C",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh nào được sử dụng để nhảy không điều kiện đến một nhãn?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Lệnh JMP được sử dụng để nhảy không điều kiện đến một nhãn."
+      },
+      {
+        "index": 4,
+        "question": "Lệnh nào được sử dụng để kiểm tra một cờ duy nhất?",
+        "user_answer": "D",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh JE được sử dụng để kiểm tra một cờ duy nhất."
+      },
+      {
+        "index": 5,
+        "question": "Lệnh nào được sử dụng để nhảy khi CX trở thành 0?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh JCXZ được sử dụng để nhảy khi CX trở thành 0."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh nào được sử dụng để so sánh hai byte trong các thanh ghi?",
+        "options": [
+          "A. CMP",
+          "B. CMPSB",
+          "C. MOV",
+          "D. SUB"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMP được sử dụng để so sánh hai byte trong các thanh ghi.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi nào thì cờ ZF được đặt thành 1 trong lệnh CMP?",
+        "options": [
+          "A. Khi đích nhỏ hơn nguồn",
+          "B. Khi đích lớn hơn nguồn",
+          "C. Khi đích bằng nguồn",
+          "D. Khi nguồn nhỏ hơn đích"
+        ],
+        "answer": "C",
+        "explanation": "Cờ ZF được đặt thành 1 khi đích bằng nguồn.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI?",
+        "options": [
+          "A. CMP",
+          "B. CMPSB",
+          "C. MOV",
+          "D. SUB"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMPSB được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để nhảy không điều kiện đến một nhãn?",
+        "options": [
+          "A. JE",
+          "B. JNE",
+          "C. JMP",
+          "D. JCXZ"
+        ],
+        "answer": "C",
+        "explanation": "Lệnh JMP được sử dụng để nhảy không điều kiện đến một nhãn.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để kiểm tra một cờ duy nhất?",
+        "options": [
+          "A. JE",
+          "B. JNE",
+          "C. JCXZ",
+          "D. JMP"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh JE được sử dụng để kiểm tra một cờ duy nhất.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để nhảy khi CX trở thành 0?",
+        "options": [
+          "A. JCXZ",
+          "B. JE",
+          "C. JNE",
+          "D. JMP"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh JCXZ được sử dụng để nhảy khi CX trở thành 0.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:21",
+    "date": "2026-05-12 06:22",
+    "score": 4,
+    "total": 6,
+    "percentage": 66.7,
+    "grade": "Khá",
+    "time_taken": "1 phút 15 giây",
+    "answers": {
+      "0": "B",
+      "1": "B",
+      "2": "B",
+      "3": "B",
+      "4": "C",
+      "5": "D"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMP giống như lệnh SUB nhưng không thay đổi toán tử đích"
+      },
+      {
+        "index": 1,
+        "question": "Nếu lệnh CMP cho kết quả bằng nhau thì cờ nào sẽ được đặt?",
+        "user_answer": "B",
+        "correct_answer": "D",
+        "is_correct": false,
+        "explanation": "Nếu lệnh CMP cho kết quả bằng nhau thì cờ ZF sẽ được đặt thành 1"
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMPSB dùng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI"
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh JMP có tác dụng nhảy không điều kiện đến một địa chỉ cụ thể"
+      },
+      {
+        "index": 4,
+        "question": "Lệnh nào dùng để kiểm tra một cờ duy nhất?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Lệnh kiểm tra một cờ duy nhất dùng để kiểm tra một cờ duy nhất"
+      },
+      {
+        "index": 5,
+        "question": "Lệnh CMP trong ví dụ về nhập chuỗi ký tự có tác dụng gì?",
+        "user_answer": "D",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMP trong ví dụ về nhập chuỗi ký tự so sánh AL với 'y'"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP có tác dụng gì?",
+        "options": [
+          "A. So sánh và thay đổi toán tử đích",
+          "B. So sánh và không thay đổi toán tử đích",
+          "C. Thực hiện phép cộng",
+          "D. Thực hiện phép trừ"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP giống như lệnh SUB nhưng không thay đổi toán tử đích",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Nếu lệnh CMP cho kết quả bằng nhau thì cờ nào sẽ được đặt?",
+        "options": [
+          "A. ZF=0",
+          "B. SF=1",
+          "C. CF=1",
+          "D. ZF=1"
+        ],
+        "answer": "D",
+        "explanation": "Nếu lệnh CMP cho kết quả bằng nhau thì cờ ZF sẽ được đặt thành 1",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "options": [
+          "A. So sánh các byte không tương ứng",
+          "B. So sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. So sánh các word",
+          "D. So sánh các dword"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMPSB dùng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP có tác dụng gì?",
+        "options": [
+          "A. Nhảy có điều kiện",
+          "B. Nhảy không điều kiện",
+          "C. Lặp lại một đoạn lệnh",
+          "D. So sánh hai số"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP có tác dụng nhảy không điều kiện đến một địa chỉ cụ thể",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào dùng để kiểm tra một cờ duy nhất?",
+        "options": [
+          "A. Lệnh so sánh số có dấu",
+          "B. Lệnh so sánh số không dấu",
+          "C. Lệnh kiểm tra một cờ duy nhất",
+          "D. Lệnh lặp"
+        ],
+        "answer": "C",
+        "explanation": "Lệnh kiểm tra một cờ duy nhất dùng để kiểm tra một cờ duy nhất",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMP trong ví dụ về nhập chuỗi ký tự có tác dụng gì?",
+        "options": [
+          "A. So sánh AL với 'y'",
+          "B. So sánh AL với 'n'",
+          "C. So sánh AL với 0Dh",
+          "D. So sánh AL với 0Ah"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMP trong ví dụ về nhập chuỗi ký tự so sánh AL với 'y'",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:39",
+    "date": "2026-05-12 06:40",
+    "score": 4,
+    "total": 7,
+    "percentage": 57.1,
+    "grade": "Trung bình",
+    "time_taken": "1 phút 3 giây",
+    "answers": {
+      "0": "A",
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "B",
+      "5": "A",
+      "6": "A"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP thực hiện chức năng gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh CMP so sánh hai số nhưng không thay đổi toán tử đích"
+      },
+      {
+        "index": 1,
+        "question": "Khi lệnh CMP so sánh hai số khác dấu, kết quả trên cờ CF và SF sẽ như thế nào?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Kết quả trên cờ CF và SF có thể khác nhau khi so sánh hai số khác dấu"
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB thực hiện chức năng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMPSB so sánh hai byte tại hai địa chỉ khác nhau"
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP thực hiện chức năng gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh JMP thực hiện nhảy đến một địa chỉ cụ thể"
+      },
+      {
+        "index": 4,
+        "question": "Lệnh nhảy có điều kiện thực hiện chức năng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh nhảy có điều kiện thực hiện nhảy đến một địa chỉ cụ thể phụ thuộc vào trạng thái của thanh ghi cờ"
+      },
+      {
+        "index": 5,
+        "question": "Lệnh JCXZ thực hiện chức năng gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh JCXZ nhảy đến một địa chỉ cụ thể khi CX bằng 0"
+      },
+      {
+        "index": 6,
+        "question": "Chức năng của cờ DF là gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Cờ DF xóa (CLD) hoặc đặt (STD) để điều khiển hướng di chuyển của SI và DI"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP thực hiện chức năng gì?",
+        "options": [
+          "A. So sánh hai số và thay đổi toán tử đích",
+          "B. So sánh hai số nhưng không thay đổi toán tử đích",
+          "C. Thực hiện phép cộng hai số",
+          "D. Thực hiện phép trừ hai số"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP so sánh hai số nhưng không thay đổi toán tử đích",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi lệnh CMP so sánh hai số khác dấu, kết quả trên cờ CF và SF sẽ như thế nào?",
+        "options": [
+          "A. CF và SF luôn bằng nhau",
+          "B. CF và SF có thể khác nhau",
+          "C. CF luôn bằng 1 và SF luôn bằng 0",
+          "D. CF luôn bằng 0 và SF luôn bằng 1"
+        ],
+        "answer": "B",
+        "explanation": "Kết quả trên cờ CF và SF có thể khác nhau khi so sánh hai số khác dấu",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB thực hiện chức năng gì?",
+        "options": [
+          "A. So sánh hai byte tại cùng một địa chỉ",
+          "B. So sánh hai byte tại hai địa chỉ khác nhau",
+          "C. So sánh hai số nguyên",
+          "D. So sánh hai số thực"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMPSB so sánh hai byte tại hai địa chỉ khác nhau",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP thực hiện chức năng gì?",
+        "options": [
+          "A. Nhảy đến một địa chỉ cụ thể",
+          "B. Nhảy đến một địa chỉ ngẫu nhiên",
+          "C. Thực hiện phép cộng hai số",
+          "D. Thực hiện phép trừ hai số"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh JMP thực hiện nhảy đến một địa chỉ cụ thể",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy có điều kiện thực hiện chức năng gì?",
+        "options": [
+          "A. Nhảy đến một địa chỉ cụ thể không phụ thuộc vào trạng thái của thanh ghi cờ",
+          "B. Nhảy đến một địa chỉ cụ thể phụ thuộc vào trạng thái của thanh ghi cờ",
+          "C. Thực hiện phép cộng hai số",
+          "D. Thực hiện phép trừ hai số"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh nhảy có điều kiện thực hiện nhảy đến một địa chỉ cụ thể phụ thuộc vào trạng thái của thanh ghi cờ",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JCXZ thực hiện chức năng gì?",
+        "options": [
+          "A. Nhảy đến một địa chỉ cụ thể khi CX khác 0",
+          "B. Nhảy đến một địa chỉ cụ thể khi CX bằng 0",
+          "C. Thực hiện phép cộng hai số",
+          "D. Thực hiện phép trừ hai số"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JCXZ nhảy đến một địa chỉ cụ thể khi CX bằng 0",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Chức năng của cờ DF là gì?",
+        "options": [
+          "A. Xóa (CLD) hoặc đặt (STD) để điều khiển hướng di chuyển của SI và DI",
+          "B. Xóa (CLD) hoặc đặt (STD) để điều khiển hướng di chuyển của AX và BX",
+          "C. Thực hiện phép cộng hai số",
+          "D. Thực hiện phép trừ hai số"
+        ],
+        "answer": "A",
+        "explanation": "Cờ DF xóa (CLD) hoặc đặt (STD) để điều khiển hướng di chuyển của SI và DI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:42",
+    "date": "2026-05-12 06:43",
+    "score": 4,
+    "total": 6,
+    "percentage": 66.7,
+    "grade": "Khá",
+    "time_taken": "1 phút 5 giây",
+    "answers": {
+      "0": "B",
+      "1": "A",
+      "2": "B",
+      "3": "B",
+      "4": "A",
+      "5": "A"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP dùng để làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMP dùng để so sánh hai toán tử, tương tự như lệnh SUB nhưng không thay đổi toán tử đích."
+      },
+      {
+        "index": 1,
+        "question": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ nào sẽ được đặt?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ ZF sẽ được đặt thành 1."
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMPSB dùng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP dùng để làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh JMP dùng để nhảy không điều kiện đến một địa chỉ cụ thể."
+      },
+      {
+        "index": 4,
+        "question": "Khi nào thì lệnh nhảy có điều kiện sẽ được thực hiện?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh nhảy có điều kiện sẽ được thực hiện khi trạng thái của thanh ghi cờ thay đổi."
+      },
+      {
+        "index": 5,
+        "question": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là nhảy trong phạm vi 128 byte."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP dùng để làm gì?",
+        "options": [
+          "A. Thêm hai toán tử",
+          "B. So sánh hai toán tử",
+          "C. Nhân hai toán tử",
+          "D. Chia hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP dùng để so sánh hai toán tử, tương tự như lệnh SUB nhưng không thay đổi toán tử đích.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ nào sẽ được đặt?",
+        "options": [
+          "A. SF=1",
+          "B. ZF=1",
+          "C. CF=1",
+          "D. AF=1"
+        ],
+        "answer": "B",
+        "explanation": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ ZF sẽ được đặt thành 1.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "options": [
+          "A. So sánh hai byte bất kỳ",
+          "B. So sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. Thêm hai byte",
+          "D. Nhân hai byte"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMPSB dùng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP dùng để làm gì?",
+        "options": [
+          "A. Nhảy có điều kiện",
+          "B. Nhảy không điều kiện",
+          "C. Lặp lại một đoạn lệnh",
+          "D. So sánh hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP dùng để nhảy không điều kiện đến một địa chỉ cụ thể.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi nào thì lệnh nhảy có điều kiện sẽ được thực hiện?",
+        "options": [
+          "A. Khi trạng thái của thanh ghi cờ không thay đổi",
+          "B. Khi trạng thái của thanh ghi cờ thay đổi",
+          "C. Khi lệnh nhảy không điều kiện được thực hiện",
+          "D. Khi lệnh lặp lại một đoạn lệnh được thực hiện"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh nhảy có điều kiện sẽ được thực hiện khi trạng thái của thanh ghi cờ thay đổi.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là?",
+        "options": [
+          "A. Nhảy trong phạm vi 128 byte",
+          "B. Nhảy trong phạm vi 256 byte",
+          "C. Nhảy trong phạm vi 512 byte",
+          "D. Nhảy trong phạm vi 1024 byte"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là nhảy trong phạm vi 128 byte.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:44",
+    "date": "2026-05-12 06:44",
+    "score": 0,
+    "total": 6,
+    "percentage": 0.0,
+    "grade": "Yếu",
+    "time_taken": "0 phút 1 giây",
+    "answers": {},
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh so sánh CMP thực hiện chức năng gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh CMP so sánh nhưng không thay đổi toán tử đích"
+      },
+      {
+        "index": 1,
+        "question": "Sau khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ nào sẽ được thiết lập?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Nếu Đích bằng Nguồn thì ZF=1"
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB được sử dụng để làm gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI"
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP là gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh JMP là lệnh nhảy không điều kiện"
+      },
+      {
+        "index": 4,
+        "question": "Lệnh nhảy có điều kiện được chia thành mấy nhóm?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh nhảy có điều kiện được chia thành 3 nhóm: Kiểm tra một cờ duy nhất, So sánh số có dấu, So sánh số không dấu"
+      },
+      {
+        "index": 5,
+        "question": "Lệnh CMPSB sẽ thay đổi giá trị của các cờ nào?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB sẽ thay đổi giá trị của các cờ OF, SF, ZF, AF, PF, CF"
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh so sánh CMP thực hiện chức năng gì?",
+        "options": [
+          "A. So sánh và thay đổi toán tử đích",
+          "B. So sánh nhưng không thay đổi toán tử đích",
+          "C. Thực hiện phép cộng",
+          "D. Thực hiện phép trừ"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP so sánh nhưng không thay đổi toán tử đích",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Sau khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ nào sẽ được thiết lập?",
+        "options": [
+          "A. CF=1",
+          "B. ZF=1",
+          "C. SF=1",
+          "D. AF=1"
+        ],
+        "answer": "B",
+        "explanation": "Nếu Đích bằng Nguồn thì ZF=1",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB được sử dụng để làm gì?",
+        "options": [
+          "A. So sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "B. So sánh các word tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. So sánh các double word tương ứng với địa chỉ ES:DI và DS:SI",
+          "D. So sánh các quad word tương ứng với địa chỉ ES:DI và DS:SI"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB được sử dụng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP là gì?",
+        "options": [
+          "A. Lệnh nhảy có điều kiện",
+          "B. Lệnh nhảy không điều kiện",
+          "C. Lệnh so sánh",
+          "D. Lệnh lặp"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP là lệnh nhảy không điều kiện",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy có điều kiện được chia thành mấy nhóm?",
+        "options": [
+          "A. 2 nhóm",
+          "B. 3 nhóm",
+          "C. 4 nhóm",
+          "D. 5 nhóm"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh nhảy có điều kiện được chia thành 3 nhóm: Kiểm tra một cờ duy nhất, So sánh số có dấu, So sánh số không dấu",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB sẽ thay đổi giá trị của các cờ nào?",
+        "options": [
+          "A. OF, SF, ZF, AF, PF, CF",
+          "B. OF, SF, ZF, AF, PF",
+          "C. SF, ZF, AF, PF, CF",
+          "D. OF, SF, ZF, AF, CF"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB sẽ thay đổi giá trị của các cờ OF, SF, ZF, AF, PF, CF",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:48",
+    "date": "2026-05-12 06:49",
+    "score": 3,
+    "total": 7,
+    "percentage": 42.9,
+    "grade": "Yếu",
+    "time_taken": "1 phút 15 giây",
+    "answers": {
+      "0": "B",
+      "1": "D",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "A",
+      "6": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMP trong lập trình hợp ngữ so sánh hai toán tử nhưng không thay đổi toán tử đích."
+      },
+      {
+        "index": 1,
+        "question": "Nếu kết quả so sánh của lệnh CMP cho thấy toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là gì?",
+        "user_answer": "D",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Nếu toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là 0."
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh CMPSB so sánh hai byte tương ứng với địa chỉ ES:DI và DS:SI."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh JMP trong lập trình hợp ngữ nhảy không điều kiện đến một nhãn."
+      },
+      {
+        "index": 4,
+        "question": "Cờ DF trong lệnh CMPSB có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Cờ DF trong lệnh CMPSB xóa nếu DF = 1 và đặt nếu DF = 0, điều này quyết định việc tăng hoặc giảm địa chỉ SI và DI."
+      },
+      {
+        "index": 5,
+        "question": "Lệnh CMPSB thường được sử dụng để làm gì?",
+        "user_answer": "A",
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB thường được sử dụng để so sánh hai chuỗi."
+      },
+      {
+        "index": 6,
+        "question": "Lệnh LOOP trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh LOOP giảm CX đi 1 và kiểm tra CX có bằng 0."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. So sánh hai toán tử và thay đổi toán tử đích",
+          "B. So sánh hai toán tử nhưng không thay đổi toán tử đích",
+          "C. Thực hiện phép cộng hai toán tử",
+          "D. Thực hiện phép trừ hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP trong lập trình hợp ngữ so sánh hai toán tử nhưng không thay đổi toán tử đích.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Nếu kết quả so sánh của lệnh CMP cho thấy toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là gì?",
+        "options": [
+          "A. SF = 1",
+          "B. SF = 0",
+          "C. CF = 1",
+          "D. ZF = 1"
+        ],
+        "answer": "B",
+        "explanation": "Nếu toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là 0.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. So sánh hai byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "B. So sánh hai word tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. So sánh hai dword tương ứng với địa chỉ ES:DI và DS:SI",
+          "D. So sánh hai byte không tương ứng với địa chỉ ES:DI và DS:SI"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB so sánh hai byte tương ứng với địa chỉ ES:DI và DS:SI.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. Nhảy có điều kiện đến một nhãn",
+          "B. Nhảy không điều kiện đến một nhãn",
+          "C. So sánh hai toán tử",
+          "D. Thực hiện phép cộng hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP trong lập trình hợp ngữ nhảy không điều kiện đến một nhãn.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Cờ DF trong lệnh CMPSB có tác dụng gì?",
+        "options": [
+          "A. Xóa nếu DF = 0 và đặt nếu DF = 1",
+          "B. Đặt nếu DF = 0 và xóa nếu DF = 1",
+          "C. Xóa nếu DF = 1 và đặt nếu DF = 0",
+          "D. Không có tác dụng gì"
+        ],
+        "answer": "C",
+        "explanation": "Cờ DF trong lệnh CMPSB xóa nếu DF = 1 và đặt nếu DF = 0, điều này quyết định việc tăng hoặc giảm địa chỉ SI và DI.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB thường được sử dụng để làm gì?",
+        "options": [
+          "A. So sánh hai byte bất kỳ",
+          "B. So sánh hai word bất kỳ",
+          "C. So sánh hai chuỗi",
+          "D. So sánh hai dword bất kỳ"
+        ],
+        "answer": "C",
+        "explanation": "Lệnh CMPSB thường được sử dụng để so sánh hai chuỗi.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh LOOP trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. Giảm CX đi 1 và kiểm tra CX có bằng 0",
+          "B. Tăng CX lên 1 và kiểm tra CX có bằng 0",
+          "C. So sánh hai toán tử",
+          "D. Thực hiện phép cộng hai toán tử"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh LOOP giảm CX đi 1 và kiểm tra CX có bằng 0.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:48",
+    "date": "2026-05-12 06:51",
+    "score": 6,
+    "total": 7,
+    "percentage": 85.7,
+    "grade": "Giỏi",
+    "time_taken": "0 phút 58 giây",
+    "answers": {
+      "0": "B",
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "C",
+      "6": "A"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMP trong lập trình hợp ngữ so sánh hai toán tử nhưng không thay đổi toán tử đích."
+      },
+      {
+        "index": 1,
+        "question": "Nếu kết quả so sánh của lệnh CMP cho thấy toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Nếu toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là 0."
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh CMPSB so sánh hai byte tương ứng với địa chỉ ES:DI và DS:SI."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh JMP trong lập trình hợp ngữ nhảy không điều kiện đến một nhãn."
+      },
+      {
+        "index": 4,
+        "question": "Cờ DF trong lệnh CMPSB có tác dụng gì?",
+        "user_answer": "B",
+        "correct_answer": "C",
+        "is_correct": false,
+        "explanation": "Cờ DF trong lệnh CMPSB xóa nếu DF = 1 và đặt nếu DF = 0, điều này quyết định việc tăng hoặc giảm địa chỉ SI và DI."
+      },
+      {
+        "index": 5,
+        "question": "Lệnh CMPSB thường được sử dụng để làm gì?",
+        "user_answer": "C",
+        "correct_answer": "C",
+        "is_correct": true,
+        "explanation": "Lệnh CMPSB thường được sử dụng để so sánh hai chuỗi."
+      },
+      {
+        "index": 6,
+        "question": "Lệnh LOOP trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh LOOP giảm CX đi 1 và kiểm tra CX có bằng 0."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. So sánh hai toán tử và thay đổi toán tử đích",
+          "B. So sánh hai toán tử nhưng không thay đổi toán tử đích",
+          "C. Thực hiện phép cộng hai toán tử",
+          "D. Thực hiện phép trừ hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP trong lập trình hợp ngữ so sánh hai toán tử nhưng không thay đổi toán tử đích.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Nếu kết quả so sánh của lệnh CMP cho thấy toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là gì?",
+        "options": [
+          "A. SF = 1",
+          "B. SF = 0",
+          "C. CF = 1",
+          "D. ZF = 1"
+        ],
+        "answer": "B",
+        "explanation": "Nếu toán tử đích lớn hơn toán tử nguồn, thì giá trị của cờ SF sẽ là 0.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. So sánh hai byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "B. So sánh hai word tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. So sánh hai dword tương ứng với địa chỉ ES:DI và DS:SI",
+          "D. So sánh hai byte không tương ứng với địa chỉ ES:DI và DS:SI"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CMPSB so sánh hai byte tương ứng với địa chỉ ES:DI và DS:SI.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. Nhảy có điều kiện đến một nhãn",
+          "B. Nhảy không điều kiện đến một nhãn",
+          "C. So sánh hai toán tử",
+          "D. Thực hiện phép cộng hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP trong lập trình hợp ngữ nhảy không điều kiện đến một nhãn.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Cờ DF trong lệnh CMPSB có tác dụng gì?",
+        "options": [
+          "A. Xóa nếu DF = 0 và đặt nếu DF = 1",
+          "B. Đặt nếu DF = 0 và xóa nếu DF = 1",
+          "C. Xóa nếu DF = 1 và đặt nếu DF = 0",
+          "D. Không có tác dụng gì"
+        ],
+        "answer": "C",
+        "explanation": "Cờ DF trong lệnh CMPSB xóa nếu DF = 1 và đặt nếu DF = 0, điều này quyết định việc tăng hoặc giảm địa chỉ SI và DI.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB thường được sử dụng để làm gì?",
+        "options": [
+          "A. So sánh hai byte bất kỳ",
+          "B. So sánh hai word bất kỳ",
+          "C. So sánh hai chuỗi",
+          "D. So sánh hai dword bất kỳ"
+        ],
+        "answer": "C",
+        "explanation": "Lệnh CMPSB thường được sử dụng để so sánh hai chuỗi.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh LOOP trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. Giảm CX đi 1 và kiểm tra CX có bằng 0",
+          "B. Tăng CX lên 1 và kiểm tra CX có bằng 0",
+          "C. So sánh hai toán tử",
+          "D. Thực hiện phép cộng hai toán tử"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh LOOP giảm CX đi 1 và kiểm tra CX có bằng 0.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:42",
+    "date": "2026-05-12 06:52",
+    "score": 5,
+    "total": 6,
+    "percentage": 83.3,
+    "grade": "Giỏi",
+    "time_taken": "0 phút 57 giây",
+    "answers": {
+      "0": "B",
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "A"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Lệnh CMP dùng để làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh CMP dùng để so sánh hai toán tử, tương tự như lệnh SUB nhưng không thay đổi toán tử đích."
+      },
+      {
+        "index": 1,
+        "question": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ nào sẽ được đặt?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ ZF sẽ được đặt thành 1."
+      },
+      {
+        "index": 2,
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh CMPSB dùng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh JMP dùng để làm gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh JMP dùng để nhảy không điều kiện đến một địa chỉ cụ thể."
+      },
+      {
+        "index": 4,
+        "question": "Khi nào thì lệnh nhảy có điều kiện sẽ được thực hiện?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh nhảy có điều kiện sẽ được thực hiện khi trạng thái của thanh ghi cờ thay đổi."
+      },
+      {
+        "index": 5,
+        "question": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là nhảy trong phạm vi 128 byte."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Lệnh CMP dùng để làm gì?",
+        "options": [
+          "A. Thêm hai toán tử",
+          "B. So sánh hai toán tử",
+          "C. Nhân hai toán tử",
+          "D. Chia hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMP dùng để so sánh hai toán tử, tương tự như lệnh SUB nhưng không thay đổi toán tử đích.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ nào sẽ được đặt?",
+        "options": [
+          "A. SF=1",
+          "B. ZF=1",
+          "C. CF=1",
+          "D. AF=1"
+        ],
+        "answer": "B",
+        "explanation": "Khi thực hiện lệnh CMP, nếu Đích bằng Nguồn thì cờ ZF sẽ được đặt thành 1.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh CMPSB dùng để làm gì?",
+        "options": [
+          "A. So sánh hai byte bất kỳ",
+          "B. So sánh các byte tương ứng với địa chỉ ES:DI và DS:SI",
+          "C. Thêm hai byte",
+          "D. Nhân hai byte"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh CMPSB dùng để so sánh các byte tương ứng với địa chỉ ES:DI và DS:SI.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh JMP dùng để làm gì?",
+        "options": [
+          "A. Nhảy có điều kiện",
+          "B. Nhảy không điều kiện",
+          "C. Lặp lại một đoạn lệnh",
+          "D. So sánh hai toán tử"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh JMP dùng để nhảy không điều kiện đến một địa chỉ cụ thể.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi nào thì lệnh nhảy có điều kiện sẽ được thực hiện?",
+        "options": [
+          "A. Khi trạng thái của thanh ghi cờ không thay đổi",
+          "B. Khi trạng thái của thanh ghi cờ thay đổi",
+          "C. Khi lệnh nhảy không điều kiện được thực hiện",
+          "D. Khi lệnh lặp lại một đoạn lệnh được thực hiện"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh nhảy có điều kiện sẽ được thực hiện khi trạng thái của thanh ghi cờ thay đổi.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là?",
+        "options": [
+          "A. Nhảy trong phạm vi 128 byte",
+          "B. Nhảy trong phạm vi 256 byte",
+          "C. Nhảy trong phạm vi 512 byte",
+          "D. Nhảy trong phạm vi 1024 byte"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh nhảy có điều kiện luôn là lệnh nhảy ngắn, có nghĩa là nhảy trong phạm vi 128 byte.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:55",
+    "date": "2026-05-12 06:56",
+    "score": 5,
+    "total": 8,
+    "percentage": 62.5,
+    "grade": "Trung bình",
+    "time_taken": "0 phút 58 giây",
+    "answers": {
+      "0": "A",
+      "1": "A",
+      "2": "B",
+      "3": "A",
+      "4": "A",
+      "5": "A",
+      "6": "B",
+      "7": "A"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngăn xếp được truy cập theo cơ chế nào?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Ngăn xếp được truy cập theo cơ chế LIFO, nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên."
+      },
+      {
+        "index": 1,
+        "question": "Khi đưa dữ liệu vào ngăn xếp, chỉ số ngăn xếp (SP) sẽ thay đổi như thế nào?",
+        "user_answer": "A",
+        "correct_answer": "D",
+        "is_correct": false,
+        "explanation": "Khi đưa dữ liệu vào ngăn xếp, chỉ số ngăn xếp (SP) sẽ giảm xuống 2."
+      },
+      {
+        "index": 2,
+        "question": "Lệnh nào được sử dụng để đưa dữ liệu vào ngăn xếp?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh PUSH được sử dụng để đưa dữ liệu vào ngăn xếp."
+      },
+      {
+        "index": 3,
+        "question": "Lệnh nào được sử dụng để lấy dữ liệu ra khỏi ngăn xếp?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh POP được sử dụng để lấy dữ liệu ra khỏi ngăn xếp."
+      },
+      {
+        "index": 4,
+        "question": "Thủ tục là gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng để giúp chương trình dễ đọc và linh hoạt."
+      },
+      {
+        "index": 5,
+        "question": "Lệnh nào được sử dụng để gọi một thủ tục?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh CALL được sử dụng để gọi một thủ tục."
+      },
+      {
+        "index": 6,
+        "question": "Lệnh nào được sử dụng để quay lại chương trình gọi sau khi thực hiện một thủ tục?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh RET được sử dụng để quay lại chương trình gọi sau khi thực hiện một thủ tục."
+      },
+      {
+        "index": 7,
+        "question": "Lệnh SHL có tác dụng gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh SHL dịch trái."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngăn xếp được truy cập theo cơ chế nào?",
+        "options": [
+          "A. FIFO (First In First Out)",
+          "B. LIFO (Last In First Out)",
+          "C. LILO (Last In Last Out)",
+          "D. FILO (First In Last Out)"
+        ],
+        "answer": "B",
+        "explanation": "Ngăn xếp được truy cập theo cơ chế LIFO, nghĩa là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi đưa dữ liệu vào ngăn xếp, chỉ số ngăn xếp (SP) sẽ thay đổi như thế nào?",
+        "options": [
+          "A. Tăng lên 1",
+          "B. Tăng lên 2",
+          "C. Giảm xuống 1",
+          "D. Giảm xuống 2"
+        ],
+        "answer": "D",
+        "explanation": "Khi đưa dữ liệu vào ngăn xếp, chỉ số ngăn xếp (SP) sẽ giảm xuống 2.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để đưa dữ liệu vào ngăn xếp?",
+        "options": [
+          "A. POP",
+          "B. PUSH",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh PUSH được sử dụng để đưa dữ liệu vào ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để lấy dữ liệu ra khỏi ngăn xếp?",
+        "options": [
+          "A. POP",
+          "B. PUSH",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh POP được sử dụng để lấy dữ liệu ra khỏi ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Thủ tục là gì?",
+        "options": [
+          "A. Một đoạn chương trình được viết riêng",
+          "B. Một đoạn chương trình được viết chung",
+          "C. Một lệnh được sử dụng để đưa dữ liệu vào ngăn xếp",
+          "D. Một lệnh được sử dụng để lấy dữ liệu ra khỏi ngăn xếp"
+        ],
+        "answer": "A",
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng để giúp chương trình dễ đọc và linh hoạt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để gọi một thủ tục?",
+        "options": [
+          "A. CALL",
+          "B. RET",
+          "C. MOV",
+          "D. PUSH"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CALL được sử dụng để gọi một thủ tục.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để quay lại chương trình gọi sau khi thực hiện một thủ tục?",
+        "options": [
+          "A. CALL",
+          "B. RET",
+          "C. MOV",
+          "D. PUSH"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh RET được sử dụng để quay lại chương trình gọi sau khi thực hiện một thủ tục.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh SHL có tác dụng gì?",
+        "options": [
+          "A. Dịch phải",
+          "B. Dịch trái",
+          "C. Dịch lên",
+          "D. Dịch xuống"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh SHL dịch trái.",
+        "verified": true,
+        "confidence": "medium"
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 06:58",
+    "date": "2026-05-12 06:59",
+    "score": 9,
+    "total": 12,
+    "percentage": 75.0,
+    "grade": "Khá",
+    "time_taken": "1 phút 16 giây",
+    "answers": {
+      "0": "A",
+      "1": "B",
+      "2": "A",
+      "3": "B",
+      "4": "B",
+      "5": "D",
+      "6": "A",
+      "7": "B",
+      "8": "A",
+      "9": "A",
+      "10": "C",
+      "11": "B"
+    },
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngăn xếp là vùng nhớ dùng để lưu trữ tạm thời những gì?",
+        "user_answer": "A",
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Ngăn xếp được sử dụng để lưu trữ tạm thời dữ liệu và địa chỉ của các chương trình con."
+      },
+      {
+        "index": 1,
+        "question": "Cơ chế truy cập của ngăn xếp là gì?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Ngăn xếp sử dụng cơ chế LIFO, tức là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên."
+      },
+      {
+        "index": 2,
+        "question": "Địa chỉ ngăn xếp được xác định bởi thanh ghi nào?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Địa chỉ ngăn xếp được xác định bởi thanh ghi SP (Stack Pointer)."
+      },
+      {
+        "index": 3,
+        "question": "Khi khai báo ngăn xếp với lệnh .STACK 100h, giá trị của SP sẽ là bao nhiêu?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Khi khai báo ngăn xếp với lệnh .STACK 100h, giá trị của SP sẽ được khởi tạo là 100h."
+      },
+      {
+        "index": 4,
+        "question": "Khi đưa dữ liệu vào ngăn xếp, giá trị của SP sẽ thay đổi như thế nào?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Khi đưa dữ liệu vào ngăn xếp, giá trị của SP sẽ giảm xuống 2 để trỏ đến vị trí mới của ngăn xếp."
+      },
+      {
+        "index": 5,
+        "question": "Khi lấy dữ liệu ra khỏi ngăn xếp, giá trị của SP sẽ thay đổi như thế nào?",
+        "user_answer": "D",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Khi lấy dữ liệu ra khỏi ngăn xếp, giá trị của SP sẽ tăng lên 2 để trỏ đến vị trí cũ của ngăn xếp."
+      },
+      {
+        "index": 6,
+        "question": "Lệnh nào được sử dụng để đưa dữ liệu vào ngăn xếp?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh PUSH được sử dụng để đưa dữ liệu vào ngăn xếp."
+      },
+      {
+        "index": 7,
+        "question": "Lệnh nào được sử dụng để lấy dữ liệu ra khỏi ngăn xếp?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh POP được sử dụng để lấy dữ liệu ra khỏi ngăn xếp."
+      },
+      {
+        "index": 8,
+        "question": "Thủ tục là gì?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng để thực hiện một nhiệm vụ cụ thể."
+      },
+      {
+        "index": 9,
+        "question": "Lệnh nào được sử dụng để gọi một thủ tục?",
+        "user_answer": "A",
+        "correct_answer": "A",
+        "is_correct": true,
+        "explanation": "Lệnh CALL được sử dụng để gọi một thủ tục."
+      },
+      {
+        "index": 10,
+        "question": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "user_answer": "C",
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong ngăn xếp."
+      },
+      {
+        "index": 11,
+        "question": "Lệnh nào được sử dụng để quay trở lại chương trình gọi?",
+        "user_answer": "B",
+        "correct_answer": "B",
+        "is_correct": true,
+        "explanation": "Lệnh RET được sử dụng để quay trở lại chương trình gọi."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngăn xếp là vùng nhớ dùng để lưu trữ tạm thời những gì?",
+        "options": [
+          "A. Dữ liệu và địa chỉ của các chương trình",
+          "B. Dữ liệu và địa chỉ của các chương trình con",
+          "C. Dữ liệu và địa chỉ của các biến",
+          "D. Dữ liệu và địa chỉ của các hàm"
+        ],
+        "answer": "B",
+        "explanation": "Ngăn xếp được sử dụng để lưu trữ tạm thời dữ liệu và địa chỉ của các chương trình con.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Cơ chế truy cập của ngăn xếp là gì?",
+        "options": [
+          "A. FIFO (First In First Out)",
+          "B. LIFO (Last In First Out)",
+          "C. FILO (First In Last Out)",
+          "D. LILO (Last In Last Out)"
+        ],
+        "answer": "B",
+        "explanation": "Ngăn xếp sử dụng cơ chế LIFO, tức là phần tử được thêm vào cuối cùng sẽ được lấy ra đầu tiên.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Địa chỉ ngăn xếp được xác định bởi thanh ghi nào?",
+        "options": [
+          "A. SP",
+          "B. SS",
+          "C. IP",
+          "D. AX"
+        ],
+        "answer": "A",
+        "explanation": "Địa chỉ ngăn xếp được xác định bởi thanh ghi SP (Stack Pointer).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi khai báo ngăn xếp với lệnh .STACK 100h, giá trị của SP sẽ là bao nhiêu?",
+        "options": [
+          "A. 0",
+          "B. 100h",
+          "C. FFh",
+          "D. 0FFh"
+        ],
+        "answer": "B",
+        "explanation": "Khi khai báo ngăn xếp với lệnh .STACK 100h, giá trị của SP sẽ được khởi tạo là 100h.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi đưa dữ liệu vào ngăn xếp, giá trị của SP sẽ thay đổi như thế nào?",
+        "options": [
+          "A. Tăng lên 2",
+          "B. Giảm xuống 2",
+          "C. Không thay đổi",
+          "D. Tăng lên 1"
+        ],
+        "answer": "B",
+        "explanation": "Khi đưa dữ liệu vào ngăn xếp, giá trị của SP sẽ giảm xuống 2 để trỏ đến vị trí mới của ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi lấy dữ liệu ra khỏi ngăn xếp, giá trị của SP sẽ thay đổi như thế nào?",
+        "options": [
+          "A. Tăng lên 2",
+          "B. Giảm xuống 2",
+          "C. Không thay đổi",
+          "D. Tăng lên 1"
+        ],
+        "answer": "A",
+        "explanation": "Khi lấy dữ liệu ra khỏi ngăn xếp, giá trị của SP sẽ tăng lên 2 để trỏ đến vị trí cũ của ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để đưa dữ liệu vào ngăn xếp?",
+        "options": [
+          "A. PUSH",
+          "B. POP",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh PUSH được sử dụng để đưa dữ liệu vào ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để lấy dữ liệu ra khỏi ngăn xếp?",
+        "options": [
+          "A. PUSH",
+          "B. POP",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh POP được sử dụng để lấy dữ liệu ra khỏi ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Thủ tục là gì?",
+        "options": [
+          "A. Một đoạn chương trình được viết riêng",
+          "B. Một biến được khai báo",
+          "C. Một hàm được định nghĩa",
+          "D. Một lệnh được thực hiện"
+        ],
+        "answer": "A",
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng để thực hiện một nhiệm vụ cụ thể.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để gọi một thủ tục?",
+        "options": [
+          "A. CALL",
+          "B. JMP",
+          "C. RET",
+          "D. MOV"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CALL được sử dụng để gọi một thủ tục.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "options": [
+          "A. Ngăn xếp",
+          "B. Bộ nhớ",
+          "C. Thanh ghi",
+          "D. Không lưu trữ"
+        ],
+        "answer": "A",
+        "explanation": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào được sử dụng để quay trở lại chương trình gọi?",
+        "options": [
+          "A. CALL",
+          "B. RET",
+          "C. JMP",
+          "D. MOV"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh RET được sử dụng để quay trở lại chương trình gọi.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
+  },
+  {
+    "quiz_title": "Đề thi 12/05/2026 07:00",
+    "date": "2026-05-12 07:00",
+    "score": 0,
+    "total": 16,
+    "percentage": 0.0,
+    "grade": "Yếu",
+    "time_taken": "0 phút 6 giây",
+    "answers": {},
+    "detail": [
+      {
+        "index": 0,
+        "question": "Ngăn xếp trong lập trình hợp ngữ là gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Ngăn xếp là vùng nhớ lưu trữ tạm thời một số dữ liệu dùng cho chương trình hoặc địa chỉ của các chương trình con."
+      },
+      {
+        "index": 1,
+        "question": "Cơ chế truy cập của ngăn xếp là gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Ngăn xếp truy cập theo cơ chế LIFO (Last In First Out)."
+      },
+      {
+        "index": 2,
+        "question": "Mỗi phần tử trong ngăn xếp là gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Mỗi phần tử trong ngăn xếp là từ (word)."
+      },
+      {
+        "index": 3,
+        "question": "Địa chỉ ngăn xếp được xác định bởi gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Địa chỉ ngăn xếp được xác định bởi cặp giá trị thanh ghi SS:SP."
+      },
+      {
+        "index": 4,
+        "question": "Khi nào vị trí xác định bởi SP là đỉnh ngăn xếp?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Khi chưa sử dụng, ngăn xếp rỗng, vị trí xác định bởi SP là đỉnh ngăn xếp."
+      },
+      {
+        "index": 5,
+        "question": "Khi đưa dữ liệu vào ngăn xếp, SP sẽ thay đổi như thế nào?",
+        "user_answer": null,
+        "correct_answer": "D",
+        "is_correct": false,
+        "explanation": "Khi đưa dữ liệu vào ngăn xếp, SP sẽ giảm xuống 2."
+      },
+      {
+        "index": 6,
+        "question": "Khi lấy dữ liệu ra khỏi ngăn xếp, SP sẽ thay đổi như thế nào?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Khi lấy dữ liệu ra khỏi ngăn xếp, SP sẽ tăng lên 2."
+      },
+      {
+        "index": 7,
+        "question": "Lệnh nào dùng để đưa giá trị vào ngăn xếp?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh PUSH dùng để đưa giá trị vào ngăn xếp."
+      },
+      {
+        "index": 8,
+        "question": "Lệnh nào dùng để lấy giá trị ra khỏi ngăn xếp?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh POP dùng để lấy giá trị ra khỏi ngăn xếp."
+      },
+      {
+        "index": 9,
+        "question": "Thủ tục trong lập trình hợp ngữ là gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng, giúp chương trình dễ đọc và linh hoạt."
+      },
+      {
+        "index": 10,
+        "question": "Cách khai báo thủ tục trong lập trình hợp ngữ là gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Cách khai báo thủ tục là Tên_Thủ_Tục PROC."
+      },
+      {
+        "index": 11,
+        "question": "Lệnh nào dùng để gọi thủ tục?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh CALL dùng để gọi thủ tục."
+      },
+      {
+        "index": 12,
+        "question": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong ngăn xếp."
+      },
+      {
+        "index": 13,
+        "question": "Khi thực hiện lệnh RET, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Khi thực hiện lệnh RET, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong thanh ghi IP."
+      },
+      {
+        "index": 14,
+        "question": "Lệnh NOT trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": null,
+        "correct_answer": "B",
+        "is_correct": false,
+        "explanation": "Lệnh NOT đổi bit của toán hạng đích."
+      },
+      {
+        "index": 15,
+        "question": "Lệnh AND trong lập trình hợp ngữ có tác dụng gì?",
+        "user_answer": null,
+        "correct_answer": "A",
+        "is_correct": false,
+        "explanation": "Lệnh AND thực hiện phép AND giữa các toán hạng."
+      }
+    ],
+    "questions": [
+      {
+        "question": "Ngăn xếp trong lập trình hợp ngữ là gì?",
+        "options": [
+          "A. Vùng nhớ lưu trữ tạm thời một số dữ liệu dùng cho chương trình",
+          "B. Vùng nhớ lưu trữ vĩnh viễn một số dữ liệu dùng cho chương trình",
+          "C. Vùng nhớ lưu trữ tạm thời một số dữ liệu dùng cho hệ điều hành",
+          "D. Vùng nhớ lưu trữ vĩnh viễn một số dữ liệu dùng cho hệ điều hành"
+        ],
+        "answer": "A",
+        "explanation": "Ngăn xếp là vùng nhớ lưu trữ tạm thời một số dữ liệu dùng cho chương trình hoặc địa chỉ của các chương trình con.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Cơ chế truy cập của ngăn xếp là gì?",
+        "options": [
+          "A. FIFO (First In First Out)",
+          "B. LIFO (Last In First Out)",
+          "C. FILO (First In Last Out)",
+          "D. LILO (Last In Last Out)"
+        ],
+        "answer": "B",
+        "explanation": "Ngăn xếp truy cập theo cơ chế LIFO (Last In First Out).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Mỗi phần tử trong ngăn xếp là gì?",
+        "options": [
+          "A. Byte",
+          "B. Word",
+          "C. Dword",
+          "D. Qword"
+        ],
+        "answer": "B",
+        "explanation": "Mỗi phần tử trong ngăn xếp là từ (word).",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Địa chỉ ngăn xếp được xác định bởi gì?",
+        "options": [
+          "A. Thanh ghi IP",
+          "B. Thanh ghi SP",
+          "C. Thanh ghi AX",
+          "D. Thanh ghi BX"
+        ],
+        "answer": "B",
+        "explanation": "Địa chỉ ngăn xếp được xác định bởi cặp giá trị thanh ghi SS:SP.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi nào vị trí xác định bởi SP là đỉnh ngăn xếp?",
+        "options": [
+          "A. Khi ngăn xếp đầy",
+          "B. Khi ngăn xếp rỗng",
+          "C. Khi ngăn xếp có một phần tử",
+          "D. Khi ngăn xếp có nhiều phần tử"
+        ],
+        "answer": "B",
+        "explanation": "Khi chưa sử dụng, ngăn xếp rỗng, vị trí xác định bởi SP là đỉnh ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi đưa dữ liệu vào ngăn xếp, SP sẽ thay đổi như thế nào?",
+        "options": [
+          "A. Tăng lên 1",
+          "B. Tăng lên 2",
+          "C. Giảm xuống 1",
+          "D. Giảm xuống 2"
+        ],
+        "answer": "D",
+        "explanation": "Khi đưa dữ liệu vào ngăn xếp, SP sẽ giảm xuống 2.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi lấy dữ liệu ra khỏi ngăn xếp, SP sẽ thay đổi như thế nào?",
+        "options": [
+          "A. Tăng lên 1",
+          "B. Tăng lên 2",
+          "C. Giảm xuống 1",
+          "D. Giảm xuống 2"
+        ],
+        "answer": "B",
+        "explanation": "Khi lấy dữ liệu ra khỏi ngăn xếp, SP sẽ tăng lên 2.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào dùng để đưa giá trị vào ngăn xếp?",
+        "options": [
+          "A. POP",
+          "B. PUSH",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh PUSH dùng để đưa giá trị vào ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào dùng để lấy giá trị ra khỏi ngăn xếp?",
+        "options": [
+          "A. POP",
+          "B. PUSH",
+          "C. XCHG",
+          "D. MOV"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh POP dùng để lấy giá trị ra khỏi ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Thủ tục trong lập trình hợp ngữ là gì?",
+        "options": [
+          "A. Một đoạn chương trình được viết riêng",
+          "B. Một đoạn chương trình được viết chung",
+          "C. Một lệnh được viết riêng",
+          "D. Một lệnh được viết chung"
+        ],
+        "answer": "A",
+        "explanation": "Thủ tục là một đoạn chương trình được viết riêng, giúp chương trình dễ đọc và linh hoạt.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Cách khai báo thủ tục trong lập trình hợp ngữ là gì?",
+        "options": [
+          "A. Tên_Thủ_Tục PROC",
+          "B. Tên_Thủ_Tục ENDP",
+          "C. Tên_Thủ_Tục PROC ENDP",
+          "D. PROC Tên_Thủ_Tục ENDP"
+        ],
+        "answer": "A",
+        "explanation": "Cách khai báo thủ tục là Tên_Thủ_Tục PROC.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh nào dùng để gọi thủ tục?",
+        "options": [
+          "A. CALL",
+          "B. RET",
+          "C. JMP",
+          "D. MOV"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh CALL dùng để gọi thủ tục.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "options": [
+          "A. Ngăn xếp",
+          "B. Thanh ghi IP",
+          "C. Thanh ghi SP",
+          "D. Thanh ghi AX"
+        ],
+        "answer": "A",
+        "explanation": "Khi thực hiện lệnh CALL, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong ngăn xếp.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Khi thực hiện lệnh RET, địa chỉ của lệnh kế tiếp sẽ được lưu trữ ở đâu?",
+        "options": [
+          "A. Ngăn xếp",
+          "B. Thanh ghi IP",
+          "C. Thanh ghi SP",
+          "D. Thanh ghi AX"
+        ],
+        "answer": "B",
+        "explanation": "Khi thực hiện lệnh RET, địa chỉ của lệnh kế tiếp sẽ được lưu trữ trong thanh ghi IP.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh NOT trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. Đổi dấu của toán hạng đích",
+          "B. Đổi bit của toán hạng đích",
+          "C. Không đổi dấu của toán hạng đích",
+          "D. Không đổi bit của toán hạng đích"
+        ],
+        "answer": "B",
+        "explanation": "Lệnh NOT đổi bit của toán hạng đích.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      },
+      {
+        "question": "Lệnh AND trong lập trình hợp ngữ có tác dụng gì?",
+        "options": [
+          "A. Thực hiện phép AND giữa các toán hạng",
+          "B. Thực hiện phép OR giữa các toán hạng",
+          "C. Thực hiện phép XOR giữa các toán hạng",
+          "D. Thực hiện phép NOT giữa các toán hạng"
+        ],
+        "answer": "A",
+        "explanation": "Lệnh AND thực hiện phép AND giữa các toán hạng.",
+        "verified": true,
+        "confidence": "high",
+        "verify_note": ""
+      }
+    ]
   }
 ]

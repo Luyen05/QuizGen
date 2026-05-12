@@ -3,3 +3,5 @@ groq
 pypdf
 PyPDF2
 python-dotenv
+ttkbootstrap
+customtkinter

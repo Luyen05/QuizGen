@@ -1,6 +1,6 @@
 """
 ui/screen_settings.py
-Màn hình 2: Người dùng cài đặt thông số → bấm tạo đề → AI xử lý
+Màn hình 2: Cài đặt thông số đề thi → tạo đề
 """
 
 import tkinter as tk
@@ -10,6 +10,8 @@ import threading
 from Core.ai_generator import generate_questions
 from Core.quiz_manager import QuizManager
 from ui.app import COLORS
+from ui.components import RoundedCard, GlowProgress, GradientButton, PillButton, blend
+from ui.layout import build_sidebar, build_title_block
 
 
 class ScreenSettings(tk.Frame):
@@ -18,165 +20,278 @@ class ScreenSettings(tk.Frame):
         self.controller = controller
         self.quiz_manager = QuizManager()
 
-        # Biến cài đặt
         self.num_questions = tk.IntVar(value=10)
-        self.num_options   = tk.IntVar(value=4)
-        self.difficulty    = tk.StringVar(value="medium")
-        self.language      = tk.StringVar(value="Tiếng Việt")
-        self.time_limit    = tk.IntVar(value=15)
+        self.num_options = tk.IntVar(value=4)
+        self.difficulty = tk.StringVar(value="medium")
+        self.language = tk.StringVar(value="Tiếng Việt")
+        self.time_limit = tk.IntVar(value=15)
 
         self._build_ui()
+        self._bind_summary()
 
     def on_enter(self):
         """Reset progress bar khi vào màn hình."""
         self.progress_var.set(0)
         self.status_var.set("Sẵn sàng tạo đề...")
-        self.btn_generate.config(state="normal")
+        self.progress_bar.set(0.0)
+        self.btn_generate.set_enabled(True)
 
     def _build_ui(self):
         c = self.controller
 
-        tk.Label(self, text="QuizGen", font=c.fonts["title"],
-                 bg=COLORS["bg"], fg=COLORS["accent"]).pack(pady=(30, 4))
-        tk.Label(self, text="Cài đặt thông số đề thi",
-                 font=c.fonts["small"], bg=COLORS["bg"],
-                 fg=COLORS["muted"]).pack()
+        self.grid_rowconfigure(0, weight=1)
+        self.grid_columnconfigure(1, weight=1)
 
-        self._build_nav(active="settings")
+        self.sidebar = build_sidebar(self, c, active="settings")
+        self.sidebar.grid(row=0, column=0, sticky="ns")
 
-        # ── Form cài đặt ──
-        frame = tk.LabelFrame(self, text=" Thông số đề thi ",
-                              bg=COLORS["surface"], fg=COLORS["text"],
-                              font=c.fonts["small"], padx=20, pady=12,
-                              bd=1, relief="solid")
-        frame.pack(fill="x", padx=40, pady=(16, 8))
+        self.main = tk.Frame(self, bg=COLORS["bg"])
+        self.main.grid(row=0, column=1, sticky="nsew")
+        self.main.grid_rowconfigure(2, weight=1)
+        self.main.grid_columnconfigure(0, weight=1)
 
-        # Hàm tạo 1 dòng cài đặt
+        top = tk.Frame(self.main, bg=COLORS["bg"])
+        top.grid(row=0, column=0, sticky="ew", padx=24, pady=(20, 8))
+        top.grid_columnconfigure(0, weight=1)
+
+        title_block = build_title_block(
+            top,
+            c,
+            "Cài đặt",
+            "Tùy chỉnh đề thi, ngôn ngữ và độ khó trước khi tạo",
+        )
+        title_block.grid(row=0, column=0, sticky="w")
+
+        quick_card = RoundedCard(
+            top,
+            bg=COLORS["card"],
+            border=COLORS["border"],
+            shadow=COLORS["shadow"],
+            radius=14,
+            padding=10,
+            height=72,
+            width=220,
+        )
+        quick_card.grid(row=0, column=1, sticky="e")
+        tk.Label(quick_card.inner, text="AI Generator",
+                 font=c.fonts["small"], bg=COLORS["card"],
+                 fg=COLORS["muted"]).pack(anchor="w")
+        tk.Label(quick_card.inner, text="Sẵn sàng xử lý",
+                 font=c.fonts["header"], bg=COLORS["card"],
+                 fg=COLORS["green"]).pack(anchor="w", pady=(4, 0))
+
+        info_row = tk.Frame(self.main, bg=COLORS["bg"])
+        info_row.grid(row=1, column=0, sticky="ew", padx=24, pady=(0, 12))
+        info_row.grid_columnconfigure(0, weight=1)
+        info_row.grid_columnconfigure(1, weight=1)
+        info_row.grid_columnconfigure(2, weight=1)
+
+        self.summary_q_var = tk.StringVar(value="10 câu")
+        self.summary_diff_var = tk.StringVar(value="Độ khó: Trung bình")
+        self.summary_time_var = tk.StringVar(value="15 phút")
+
+        summaries = [
+            ("Số câu hỏi", self.summary_q_var),
+            ("Độ khó", self.summary_diff_var),
+            ("Thời gian", self.summary_time_var),
+        ]
+
+        for i, (title, var) in enumerate(summaries):
+            card = RoundedCard(
+                info_row,
+                bg=COLORS["card"],
+                border=COLORS["border"],
+                shadow=COLORS["shadow"],
+                radius=14,
+                padding=12,
+                height=92,
+            )
+            card.grid(row=0, column=i, sticky="nsew", padx=(0, 10) if i < 2 else 0)
+            tk.Label(card.inner, text=title, font=c.fonts["small"],
+                     bg=COLORS["card"], fg=COLORS["muted"]).pack(anchor="w")
+            tk.Label(card.inner, textvariable=var, font=c.fonts["header"],
+                     bg=COLORS["card"], fg=COLORS["text"]).pack(anchor="w", pady=(4, 0))
+
+        content = tk.Frame(self.main, bg=COLORS["bg"])
+        content.grid(row=2, column=0, sticky="nsew", padx=24, pady=(0, 12))
+        content.grid_columnconfigure(0, weight=1)
+        content.grid_columnconfigure(1, weight=1)
+        content.grid_rowconfigure(0, weight=1)
+
+        form_card = RoundedCard(
+            content,
+            bg=COLORS["card"],
+            border=COLORS["border"],
+            shadow=COLORS["shadow"],
+            radius=18,
+            padding=14,
+        )
+        form_card.grid(row=0, column=0, sticky="nsew", padx=(0, 12))
+
+        tk.Label(form_card.inner, text="Thông số đề thi",
+                 font=c.fonts["header"], bg=COLORS["card"],
+                 fg=COLORS["text"]).pack(anchor="w", pady=(0, 8))
+
         def setting_row(label, widget_fn):
-            row = tk.Frame(frame, bg=COLORS["surface"])
-            row.pack(fill="x", pady=5)
+            row = tk.Frame(form_card.inner, bg=COLORS["card"])
+            row.pack(fill="x", pady=6)
             tk.Label(row, text=label, font=c.fonts["body"],
-                     bg=COLORS["surface"], fg=COLORS["text"],
-                     width=20, anchor="w").pack(side="left")
+                     bg=COLORS["card"], fg=COLORS["text"],
+                     width=18, anchor="w").pack(side="left")
             widget_fn(row)
 
-        # Số câu hỏi
-        setting_row("Số câu hỏi:", lambda r: tk.Spinbox(
+        setting_row("Số câu hỏi", lambda r: tk.Spinbox(
             r, from_=5, to=30, textvariable=self.num_questions,
-            width=6, font=c.fonts["body"], bg=COLORS["card"],
-            fg=COLORS["text"], relief="flat"
+            width=6, font=c.fonts["body"], bg=COLORS["card_alt"],
+            fg=COLORS["text"], relief="flat", insertbackground=COLORS["text"]
         ).pack(side="left"))
 
-        # Số đáp án
-        setting_row("Số đáp án mỗi câu:", lambda r: tk.Spinbox(
+        setting_row("Số đáp án", lambda r: tk.Spinbox(
             r, from_=2, to=5, textvariable=self.num_options,
-            width=6, font=c.fonts["body"], bg=COLORS["card"],
-            fg=COLORS["text"], relief="flat"
+            width=6, font=c.fonts["body"], bg=COLORS["card_alt"],
+            fg=COLORS["text"], relief="flat", insertbackground=COLORS["text"]
         ).pack(side="left"))
 
-        # Độ khó
         def build_difficulty(r):
-            for val, label in [("easy","Dễ"),("medium","Trung bình"),("hard","Khó")]:
-                tk.Radiobutton(r, text=label, variable=self.difficulty, value=val,
-                               font=c.fonts["body"], bg=COLORS["surface"],
-                               fg=COLORS["text"], selectcolor=COLORS["card"],
-                               activebackground=COLORS["surface"]).pack(side="left", padx=6)
-        setting_row("Độ khó:", build_difficulty)
+            for val, label in [("easy", "Dễ"), ("medium", "Trung bình"), ("hard", "Khó")]:
+                tk.Radiobutton(
+                    r,
+                    text=label,
+                    variable=self.difficulty,
+                    value=val,
+                    font=c.fonts["small"],
+                    bg=COLORS["surface"],
+                    fg=COLORS["text"],
+                    selectcolor=COLORS["accent"],
+                    activebackground=COLORS["surface_alt"],
+                    activeforeground="white",
+                    indicatoron=False,
+                    padx=12,
+                    pady=4,
+                ).pack(side="left", padx=4)
+        setting_row("Độ khó", build_difficulty)
 
-        # Ngôn ngữ
-        setting_row("Ngôn ngữ:", lambda r: tk.OptionMenu(
-            r, self.language, "Tiếng Việt", "English"
-        ).pack(side="left"))
+        def build_language(r):
+            opt = tk.OptionMenu(r, self.language, "Tiếng Việt", "English")
+            opt.config(
+                bg=COLORS["card_alt"],
+                fg=COLORS["text"],
+                activebackground=COLORS["surface_alt"],
+                activeforeground="white",
+                highlightthickness=0,
+                relief="flat",
+                font=c.fonts["body"],
+            )
+            opt["menu"].config(
+                bg=COLORS["card_alt"],
+                fg=COLORS["text"],
+                activebackground=COLORS["accent"],
+                activeforeground="white",
+            )
+            opt.pack(side="left")
+        setting_row("Ngôn ngữ", build_language)
 
-        # Thời gian
-        setting_row("Thời gian (phút):", lambda r: tk.Spinbox(
+        setting_row("Thời gian (phút)", lambda r: tk.Spinbox(
             r, from_=5, to=60, textvariable=self.time_limit,
-            width=6, font=c.fonts["body"], bg=COLORS["card"],
-            fg=COLORS["text"], relief="flat"
+            width=6, font=c.fonts["body"], bg=COLORS["card_alt"],
+            fg=COLORS["text"], relief="flat", insertbackground=COLORS["text"]
         ).pack(side="left"))
 
-        # ── Progress bar ──
-        frame_prog = tk.Frame(self, bg=COLORS["bg"])
-        frame_prog.pack(fill="x", padx=40, pady=8)
+        status_card = RoundedCard(
+            content,
+            bg=COLORS["card"],
+            border=COLORS["border"],
+            shadow=COLORS["shadow"],
+            radius=18,
+            padding=14,
+        )
+        status_card.grid(row=0, column=1, sticky="nsew")
+
+        tk.Label(status_card.inner, text="Tiến trình tạo đề",
+                 font=c.fonts["header"], bg=COLORS["card"],
+                 fg=COLORS["text"]).pack(anchor="w", pady=(0, 8))
 
         self.status_var = tk.StringVar(value="Sẵn sàng tạo đề...")
-        tk.Label(frame_prog, textvariable=self.status_var,
-                 font=c.fonts["small"], bg=COLORS["bg"],
+        tk.Label(status_card.inner, textvariable=self.status_var,
+                 font=c.fonts["small"], bg=COLORS["card"],
                  fg=COLORS["muted"]).pack(anchor="w")
 
         self.progress_var = tk.DoubleVar(value=0)
-        self.progress_canvas = tk.Canvas(frame_prog, height=8,
-                                         bg=COLORS["surface"],
-                                         highlightthickness=0)
-        self.progress_canvas.pack(fill="x", pady=4)
-        self.progress_canvas.bind("<Configure>", self._draw_progress)
+        self.progress_bar = GlowProgress(
+            status_card.inner,
+            height=8,
+            bg=COLORS["card_alt"],
+            fill=COLORS["accent"],
+            glow=COLORS["glow"],
+        )
+        self.progress_bar.pack(fill="x", pady=10)
 
-        # ── Nút ──
-        btn_row = tk.Frame(self, bg=COLORS["bg"])
-        btn_row.pack(pady=12)
+        tips = tk.Frame(status_card.inner, bg=COLORS["card"])
+        tips.pack(fill="x", pady=(6, 0))
+        tk.Label(tips, text="• Quá trình tạo đề có thể mất 30-60 giây",
+                 font=c.fonts["small"], bg=COLORS["card"],
+                 fg=COLORS["muted"]).pack(anchor="w")
+        tk.Label(tips, text="• Hãy giữ kết nối mạng ổn định",
+                 font=c.fonts["small"], bg=COLORS["card"],
+                 fg=COLORS["muted"]).pack(anchor="w")
 
-        tk.Button(btn_row, text="◀ Quay lại",
-                  font=c.fonts["btn"], bg=COLORS["surface"],
-                  fg=COLORS["muted"], relief="flat", cursor="hand2",
-                  padx=14, pady=8,
-                  command=lambda: self.controller.show_screen("upload")
-                  ).pack(side="left", padx=6)
+        footer = tk.Frame(self.main, bg=COLORS["bg"])
+        footer.grid(row=3, column=0, sticky="ew", padx=24, pady=(0, 18))
+        footer.grid_columnconfigure(1, weight=1)
 
-        self.btn_generate = tk.Button(btn_row, text="🤖 Tạo đề thi",
-                  font=c.fonts["btn"], bg=COLORS["accent"],
-                  fg="white", relief="flat", cursor="hand2",
-                  padx=20, pady=8,
-                  command=self._start_generate)
-        self.btn_generate.pack(side="left", padx=6)
+        self.btn_back = PillButton(
+            footer,
+            text="Quay lại",
+            command=lambda: self.controller.show_screen("upload"),
+            bg=COLORS["surface"],
+            hover_bg=COLORS["surface_alt"],
+            fg=COLORS["text"],
+            hover_fg="white",
+            font=c.fonts["btn"],
+            height=40,
+            width=140,
+        )
+        self.btn_back.grid(row=0, column=0, sticky="w")
 
-    def _build_nav(self, active: str):
-        nav = tk.Frame(self, bg=COLORS["bg"])
-        nav.pack(pady=(12, 0))
-        tabs = [
-            ("📂 Tải lên",  "upload"),
-            ("⚙️ Cài đặt", "settings"),
-            ("📝 Thi thử",  "quiz"),
-            ("📊 Kết quả",  "result"),
-            ("📜 Lịch sử",  "history"),
-        ]
-        for label, name in tabs:
-            bg = COLORS["accent"] if name == active else COLORS["surface"]
-            fg = "white" if name == active else COLORS["muted"]
-            lbl = tk.Label(nav, text=label,
-                           font=self.controller.fonts["small"],
-                           bg=bg, fg=fg, padx=10, pady=5,
-                           cursor="hand2")
-            lbl.pack(side="left", padx=2)
-            if name != active:
-                lbl.bind("<Button-1>",
-                         lambda e, n=name: self.controller.show_screen(n))
+        self.btn_generate = GradientButton(
+            footer,
+            text="Tạo đề thi",
+            command=self._start_generate,
+            left_color=COLORS["accent"],
+            right_color=COLORS["accent2"],
+            hover_left=blend(COLORS["accent"], "#FFFFFF", 0.08),
+            hover_right=blend(COLORS["accent2"], "#FFFFFF", 0.08),
+            fg="white",
+            font=c.fonts["btn"],
+            height=44,
+            width=200,
+        )
+        self.btn_generate.grid(row=0, column=2, sticky="e")
 
-    def _draw_progress(self, event=None):
-        """Vẽ thanh progress thủ công bằng Canvas."""
-        self.progress_canvas.delete("all")
-        w = self.progress_canvas.winfo_width()
-        pct = self.progress_var.get() / 100
-        fill_w = int(w * pct)
-        self.progress_canvas.create_rectangle(0, 0, w, 8,
-                                              fill=COLORS["surface"], outline="")
-        if fill_w > 0:
-            self.progress_canvas.create_rectangle(0, 0, fill_w, 8,
-                                                   fill=COLORS["accent"], outline="")
+    def _bind_summary(self):
+        def update_summary(*_):
+            self.summary_q_var.set(f"{self.num_questions.get()} câu")
+            diff_map = {"easy": "Dễ", "medium": "Trung bình", "hard": "Khó"}
+            diff_text = diff_map.get(self.difficulty.get(), "—")
+            self.summary_diff_var.set(f"Độ khó: {diff_text}")
+            self.summary_time_var.set(f"{self.time_limit.get()} phút")
+
+        self.num_questions.trace_add("write", update_summary)
+        self.difficulty.trace_add("write", update_summary)
+        self.time_limit.trace_add("write", update_summary)
+        update_summary()
 
     def _update_progress(self, value: float, status: str):
         """Cập nhật UI từ thread phụ — dùng after() để an toàn."""
         def _update():
             self.progress_var.set(value)
             self.status_var.set(status)
-            self._draw_progress()
+            self.progress_bar.set(value / 100.0, animate=True)
         self.after(0, _update)
 
     def _start_generate(self):
-        """
-        Chạy generate trong thread riêng để UI không bị đơ.
-        Đây là kỹ thuật quan trọng khi gọi API tốn thời gian.
-        """
-        self.btn_generate.config(state="disabled")
+        """Chạy generate trong thread riêng để UI không bị đơ."""
+        self.btn_generate.set_enabled(False)
         thread = threading.Thread(target=self._generate_worker, daemon=True)
         thread.start()
 
@@ -195,10 +310,10 @@ class ScreenSettings(tk.Frame):
 
             settings = {
                 "num_questions": self.num_questions.get(),
-                "num_options":   self.num_options.get(),
-                "difficulty":    self.difficulty.get(),
-                "language":      self.language.get(),
-                "time_limit":    self.time_limit.get(),
+                "num_options": self.num_options.get(),
+                "difficulty": self.difficulty.get(),
+                "language": self.language.get(),
+                "time_limit": self.time_limit.get(),
             }
 
             questions = generate_questions(
@@ -211,19 +326,17 @@ class ScreenSettings(tk.Frame):
 
             self._update_progress(80, "Đang xử lý kết quả...")
 
-            quiz = self.quiz_manager.create_quiz(questions, settings)
+            self.quiz_manager.create_quiz(questions, settings)
 
-            # Lưu vào shared data
             self.controller.set_shared("questions", questions)
             self.controller.set_shared("settings", settings)
             self.controller.set_shared("quiz_manager", self.quiz_manager)
 
             self._update_progress(100, f"✅ Tạo xong {len(questions)} câu hỏi!")
 
-            # Chuyển màn hình sau 500ms
             self.after(500, lambda: self.controller.show_screen("quiz"))
 
         except Exception as e:
             self.after(0, lambda: messagebox.showerror("Lỗi tạo đề", str(e)))
             self._update_progress(0, "Lỗi — thử lại")
-            self.after(0, lambda: self.btn_generate.config(state="normal"))
+            self.after(0, lambda: self.btn_generate.set_enabled(True))

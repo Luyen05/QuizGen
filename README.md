@@ -52,7 +52,7 @@ pip install -r requirements.txt
 
 Hoặc cài thủ công:
 ```bash
-pip install google-generativeai groq pypdf PyPDF2 python-dotenv
+pip install google-generativeai groq pypdf PyPDF2 python-dotenv ttkbootstrap customtkinter
 ```
 
 ### 4. Cấu Hình API Keys
@@ -133,12 +133,20 @@ QuizGen/
 │   └── quiz_manager.py   # Quản lý quiz
 │
 ├── ui/                   # Giao diện người dùng
-│   ├── app.py            # Ứng dụng chính (Tkinter)
+│   ├── app.py            # Ứng dụng chính
+│   ├── layout.py         # Bố cục tổng
+│   ├── components.py     # Tổng hợp UI components
 │   ├── screen_upload.py  # Màn hình upload tệp
 │   ├── screen_settings.py # Màn hình cấu hình
 │   ├── screen_quiz.py    # Màn hình làm quiz
 │   ├── screen_history.py # Màn hình lịch sử
-│   └── screen_result.py  # Màn hình kết quả
+│   ├── screen_result.py  # Màn hình kết quả
+│   ├── assets/           # Tài nguyên UI
+│   ├── components/       # UI components (button, card, ...)
+│   ├── layouts/          # Layouts dùng lại
+│   ├── screens/          # Các màn hình theo module
+│   ├── theme/            # Theme manager
+│   └── utils/            # Tiện ích (navigation)
 │
 └── Data/                 # Dữ liệu
     └── history.json      # Lịch sử quiz
@@ -146,7 +154,7 @@ QuizGen/
 
 ## Kỹ Thuật Sử Dụng
 
-- **Frontend**: Tkinter (GUI) - Đi kèm với Python
+- **Frontend**: CustomTkinter + ttkbootstrap (trên nền Tkinter)
 - **Backend**: Python 3.9+
 - **AI Services**: 
   - Groq API (mô hình LLaMA)
@@ -201,7 +209,7 @@ for q in questions:
 
 ## License
 
-MIT License - Xem file LICENSE để biết thêm chi tiết.
+Chưa có file LICENSE trong dự án.
 
 
 ## Liên Hệ & Hỗ Trợ
@@ -215,4 +223,4 @@ Nếu gặp vấn đề, vui lòng:
 
 **Happy Quiz Generation! 🎉**
 
-*Cập nhật lần cuối: April 2, 2026*
+*Cập nhật lần cuối: May 12, 2026*
